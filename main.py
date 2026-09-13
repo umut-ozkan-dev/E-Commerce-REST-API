@@ -1,20 +1,26 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
-from products import product_list
+from products import product_list, final_string
+from home import homepage
 
 app = FastAPI()
 
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 def home():
-    return {"message": "Welcome to Tal E-Commerce"}
+    return homepage
 
 
-@app.get("/products")
+@app.get("/products", response_class=HTMLResponse)
 def products():
-    return product_list
+    return final_string
 
 
 @app.get("/contact")
 def contact():
     return {"message": {"email": "ecommerce@gmail.com", "location": "Ankara, Turkey"}}
+
+
+@app.get("/cart")
+def cart():
+    return {"message": {"email": "Your cart is empty"}}
