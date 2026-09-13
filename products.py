@@ -11,13 +11,13 @@ product_list: list[Dict] = [
 
 
 final_string = f"""
-<h1>Welcome to Products</h1> 
+<h1>Products Page</h1> 
 <hr>
 <br>
 """
 for i in range(len(product_list)):
     final_string += f""" 
-                    <p>Name : {product_list[i]["Name"]}</p>
+                    <h3>Name : {product_list[i]["Name"]}</h3>
                     <p>Price : {product_list[i]["Price"]} $</p> 
                     <p>In Stock : {product_list[i]["In Stock"]}</p> 
                     <button> Add to Cart</button> 
