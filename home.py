@@ -1,4 +1,4 @@
-homepage = """
+home_page = """
 
 <h1> High-End E-Commerce Store 🛍️ </h1>
 <hr>

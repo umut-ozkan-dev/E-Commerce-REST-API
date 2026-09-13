@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
-from products import product_list, final_string
+from products import product_page
 from login import login_page
-from home import homepage
+from home import home_page
 from contact import contact_page
 from shopping_cart import cart_page
 
@@ -11,12 +11,12 @@ app = FastAPI()
 
 @app.get("/", response_class=HTMLResponse)
 def home():
-    return homepage
+    return home_page
 
 
 @app.get("/products", response_class=HTMLResponse)
 def products():
-    return final_string
+    return product_page
 
 
 @app.get("/cart", response_class=HTMLResponse)
