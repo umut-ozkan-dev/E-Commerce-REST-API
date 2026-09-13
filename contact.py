@@ -3,11 +3,9 @@ contact_page = """
 <hr>
 <br>
 
-<h3>Email : ecommerce@info </h3>
-<h3>Phone : +1 (555) 019-2834 </h3>
-<h3>Location : Ankara, Turkey </h3>
-<br>
-<br>
+<p>Email : ecommerce@info </p>
+<p>Phone : +1 (555) 019-2834 </p>
+<p>Location : Ankara, Turkey </p>
 <br>
 <h2> Send Us a Message </h2>
 <hr>
@@ -15,8 +13,9 @@ contact_page = """
 <div> Email : <input /> </div>
 
 <br>
-<div> Message : <input type = text size = 150 /> </div>
-
+<div> Message : <input type = text size = 100 /> </div>
+<br>
+<button>Submit</button>
 
 
 """

@@ -2,10 +2,13 @@ login_page = """
 <h1>Login Page</h1>
 <hr>
 <br>
-
-<h2>
+<br>
+<br>
 <div> Username : <input /> </div>
+<br>
 <div> Password : <input /> </div>
+<br>
+<button> Login</button> 
 
 
 

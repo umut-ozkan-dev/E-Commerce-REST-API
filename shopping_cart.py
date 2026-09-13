@@ -4,7 +4,7 @@ cart_page = """
 <br>
 
 
-<h4>Your Shopping Cart is Empty</h4>
+<a>Your Shopping Cart is Empty</a>
 
 
 """
