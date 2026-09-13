@@ -20,5 +20,8 @@ for i in range(len(product_list)):
                     <p>Name : {product_list[i]["Name"]}</p>
                     <p>Price : {product_list[i]["Price"]} $</p> 
                     <p>In Stock : {product_list[i]["In Stock"]}</p> 
-                    <br>
+                    <button> Add to Cart</button> 
+
+                    <br><br><br>
+
                     """
