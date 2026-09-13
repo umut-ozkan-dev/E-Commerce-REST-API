@@ -3,7 +3,7 @@ contact_page = """
 <hr>
 <br>
 
-<p>Email : ecommerce@info </p>
+<p>Email : highend_ecommerce@info </p>
 <p>Phone : +1 (555) 019-2834 </p>
 <p>Location : Ankara, Turkey </p>
 <br>
