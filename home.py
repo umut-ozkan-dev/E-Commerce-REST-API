@@ -1,7 +1,6 @@
 homepage = """
 
-<h1>Welcome to Tal E-Commerce 🛍️ </h1>
-<h3>Special E-Commerce For Chemistry</h3>
+<h1> High-End E-Commerce Store 🛍️ </h1>
 <hr>
 <br>
 

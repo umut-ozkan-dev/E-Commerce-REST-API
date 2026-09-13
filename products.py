@@ -11,7 +11,7 @@ product_list: list[Dict] = [
 
 
 final_string = f"""
-<h1>Products Page</h1> 
+<h1>Products Page 🏷️</h1> 
 <hr>
 <br>
 """

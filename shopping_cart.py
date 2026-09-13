@@ -1,5 +1,5 @@
 cart_page = """
-<h1>Cart Page</h1>
+<h1>Shopping Cart 🛒</h1>
 <hr>
 <br>
 
