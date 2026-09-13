@@ -6,8 +6,8 @@ homepage = """
 <br>
 
 <form method="get" action="./products"><button type="submit">Products</button></form>
-<form method="get" action="./contact"><button type="submit">Contact Us</button></form>
 <form method="get" action="./login"><button type="submit">Login</button></form>
-<form method="get" action="./cart"><button type="submit">Cart</button></form>
+<form method="get" action="./cart"><button type="submit">Shopping Cart</button></form>
+<form method="get" action="./contact"><button type="submit">Contact Us</button></form>
 
 """
