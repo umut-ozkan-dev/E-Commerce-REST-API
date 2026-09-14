@@ -2,10 +2,11 @@ from products import product_page
 from login import login_page
 from home import home_page
 from contact import contact_page
-from shopping_cart import cart_page
+from cart import cart_page
 
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
@@ -33,3 +34,8 @@ def login():
 @app.get("/contact", response_class=HTMLResponse)
 def contact():
     return contact_page
+
+
+@app.get("/styles.css")
+def styles():
+    return FileResponse("pages/styles.css")
