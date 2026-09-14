@@ -1,4 +1,4 @@
-FILEPATH = "./pages/contact.html"
+FILEPATH = "./pages/cart.html"
 
 
 with open(FILEPATH) as f:

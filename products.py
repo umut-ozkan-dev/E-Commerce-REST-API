@@ -15,14 +15,17 @@ FILEPATH = "./pages/products.html"
 with open(FILEPATH) as f:
     product_page = f"{f.read()}"
 
- 
+
 for i in range(len(product_list)):
     product_page += f""" 
-                    <h3>Name : {product_list[i]["Name"]}</h3>
-                    <p>Price : {product_list[i]["Price"]} $</p> 
-                    <p>In Stock : {product_list[i]["In Stock"]}</p> 
+                    <div class = "items"> 
+                    <div class ="inside_items"> 
+                    Name : {product_list[i]["Name"]} <br>
+                    Price : {product_list[i]["Price"]}$<br> 
+                    In Stock : {product_list[i]["In Stock"]}<br> 
                     <button> Add to Cart</button> 
-
+                    </div>
+                    </div>
                     <br><br><br>
 
                     """
