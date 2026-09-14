@@ -9,12 +9,13 @@ product_list: list[Dict] = [
     {"id": 6, "Name": "Leadwise Monitor", "Price": 79.90, "In Stock": True},
 ]
 
+FILEPATH = "./pages/products.html"
 
-product_page = f"""
-<h1>Products Page 🏷️</h1> 
-<hr>
-<br>
-"""
+
+with open(FILEPATH) as f:
+    product_page = f"{f.read()}"
+
+ 
 for i in range(len(product_list)):
     product_page += f""" 
                     <h3>Name : {product_list[i]["Name"]}</h3>

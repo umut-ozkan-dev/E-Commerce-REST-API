@@ -1,14 +1,5 @@
-login_page = """
-<h1>Login Page 👤</h1>
-<hr>
-<br>
-<br>
-<div> Username : <input /> </div>
-<br>
-<div> Password : <input /> </div>
-<br>
-<button> Login</button> 
+FILEPATH = "./pages/login.html"
 
 
-
-"""
+with open(FILEPATH) as f:
+    login_page = f.read()

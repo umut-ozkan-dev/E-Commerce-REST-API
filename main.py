@@ -1,10 +1,11 @@
-from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
 from products import product_page
 from login import login_page
 from home import home_page
 from contact import contact_page
 from shopping_cart import cart_page
+
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
