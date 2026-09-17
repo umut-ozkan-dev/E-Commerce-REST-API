@@ -3,6 +3,9 @@ body {
     text-align: center;
      
 }
+head{
+    background-color: #a42727;
+}
 
 h1{
     font-style: normal;
@@ -11,16 +14,17 @@ h1{
 }
 
 button{
+    font-size: large;
     font-weight: bold;
     display: inline;    
     background-color: #a42727;
     color: #ffffff;
-    padding: 5;
-    padding-left: 15;
-    padding-right: 15;
-    border-radius: 20px;
-    stroke: #ffffff;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+
     
 }
 form{
@@ -31,5 +35,5 @@ form{
 .head_bar{
     background-color: rgb(164, 39, 39);
     text-shadow: 21px , black;
-
+    text-align: center;
 }
