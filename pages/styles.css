@@ -1,16 +1,13 @@
 body {
-  background-color:#ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     
 }
 
 h1{
     font-style: normal;
     text-align: center;
     color: #ffffff;
-    stroke: black, 2px;
- 
 }
 
 button{
@@ -18,12 +15,16 @@ button{
     display: inline;    
     background-color: #a42727;
     color: #ffffff;
-    padding: 7;
+    padding: 5;
+    padding-left: 15;
+    padding-right: 15;
+    border-radius: 20px;
+    stroke: #ffffff;
+    
     
 }
 form{
    display: inline;
-    font-family: 'Times New Roman', Times, serif
 
 }
 
