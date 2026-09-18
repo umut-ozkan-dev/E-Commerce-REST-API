@@ -9,7 +9,6 @@ with open(FILEPATH) as f:
 for i in range(5):
     home_page += f""" 
                     <br>
-                    <br>
                     <div class = "items"> 
                     <div class ="inside_items"> 
                     <img src="{product_list[i]["Img"]}" width=130>
