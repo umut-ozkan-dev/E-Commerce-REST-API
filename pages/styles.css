@@ -38,12 +38,12 @@ form {
 }
 
 .login {
-  background-color: #f4dcdc;
+  background-color: #fef9f9;
   border-radius: 20px;
   text-align: center;
   border: 2px solid rgb(0, 0, 0);
   width: 275px;
-  height: 300px;
+  height: 220px;
   padding: 25px;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
@@ -53,4 +53,22 @@ form {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
+}
+
+.inside_items{
+  background-color: #fef9f9;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  width: 275px;
+  height: 220px;
+  padding: 25px;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */      
+
+}
+
+.items{
+  display: flex;
+  justify-content: flex-start; /* Aligns all items to the left */
 }
