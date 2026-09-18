@@ -33,14 +33,11 @@ for i in range(len(product_list)):
                     <br>
                     <div class = "items"> 
                     <div class ="inside_items"> 
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" width=100> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" width=130> 
                     <br><br>
                     <strong>{product_list[i]["Name"]}</strong>
                     <br>
                     {product_list[i]["Price"]} $<br> 
-                    In Stock : {product_list[i]["In Stock"]}<br> 
-                    <br>
-                    <button> Add to Cart</button> 
                     </div>
                     </div>
                     <br><br><br>

@@ -31,6 +31,10 @@ button {
   border-radius: 4px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
+
+button:hover{
+    background-color: #c43838;
+}
 form {
   display: inline;
 }
@@ -70,11 +74,15 @@ form {
   padding: 35px;
 
 
-
+}
+.inside_items:hover{
+      border: 2px solid rgb(167, 167, 167);
 }
 
 .items{
   margin: 20px;
+    font-size: 19px;
+
 
 }
 
@@ -83,14 +91,10 @@ form {
     background-color: #a42727;
 }
 
-button:hover{
-      background-color: #c43838;
-      font-weight: bolder;
 
-}
 strong:hover{
     font-weight: bolder;
-    font-size: large;
+    font-size: 19px;
     color: #c43838;
     text-decoration: underline;
 
@@ -116,11 +120,11 @@ strong:hover{
 
 
 .shopping_class{
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     align-self: center;
     justify-content: center;
-      margin-left: 860px;
+      margin-left: 760px;
   margin-right: 160px;
     margin-top: 45px;
   background-color: #f3f3f3;
@@ -133,9 +137,10 @@ strong:hover{
 
 
 .send_message{
-        height: 400px;
-        width: 400px;
-      margin-left: 860px;
+        height: 600px;
+        width: 600px;
+            margin-left: 760px;
+
   margin-right: 160px;
     margin-top: 45px;
   align-items:start ;
@@ -153,3 +158,12 @@ h3{
     font-size: x-large;
 }
 
+
+.page_title{
+    font-size: 30px;
+    color: black;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 2.5);
+
+
+
+}
