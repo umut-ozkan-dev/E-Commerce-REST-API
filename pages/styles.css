@@ -1,7 +1,8 @@
 body {
     background-color: #fafafa;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+    text-align: center;
+    align-self: start;
 }
 head {
   background-color: #a42727;
@@ -17,6 +18,7 @@ h1 {
 }
 
 button {
+  outline: #a42727;
   font-size: large;
   font-weight: bold;
   display: inline;
@@ -41,10 +43,11 @@ form {
 }
 
 .login {
-  background-color: #fef9f9;
+  margin-top: 150px;
+  background-color: #f3f3f3;
   border-radius: 20px;
   text-align: center;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(191, 180, 180);
   width: 275px;
   height: 220px;
   padding: 25px;
@@ -59,22 +62,94 @@ form {
 }
 
 .inside_items{
-  background-color: #fef9f9;
+  background-color: #faf7f7;
   border-radius: 20px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(211, 211, 211);
   width: 175px;
   height: 220px;
   padding: 35px;
- 
+
 
 
 }
 
 .items{
-  display: grid;
- }
+  margin: 20px;
+
+}
 
 .items button{
     font-size: small;
     background-color: #a42727;
 }
+
+button:hover{
+      background-color: #c43838;
+      font-weight: bolder;
+
+}
+strong:hover{
+    font-weight: bolder;
+    font-size: large;
+    color: #c43838;
+    text-decoration: underline;
+
+}
+.products{
+    padding-top: 200px;
+      margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:start ;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color: #f3f3f3;
+      border: 2px solid rgb(191, 180, 180);
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+.shopping_class{
+    height: 400px;
+    width: 400px;
+    align-self: center;
+    justify-content: center;
+      margin-left: 860px;
+  margin-right: 160px;
+    margin-top: 45px;
+  background-color: #f3f3f3;
+      border: 2px solid rgb(191, 180, 180);
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+.send_message{
+        height: 400px;
+        width: 400px;
+      margin-left: 860px;
+  margin-right: 160px;
+    margin-top: 45px;
+  align-items:start ;
+  background-color: #f3f3f3;
+      border: 2px solid rgb(191, 180, 180);
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+
+h3{
+    font-size: x-large;
+}
+

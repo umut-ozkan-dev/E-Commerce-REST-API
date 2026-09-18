@@ -7,6 +7,17 @@ product_list: list[Dict] = [
     {"id": 4, "Name": "HDW Monitor", "Price": 69.99, "In Stock": True},
     {"id": 5, "Name": "E2 Bud Headphone", "Price": 29.99, "In Stock": True},
     {"id": 6, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 7, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 8, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 9, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 10, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 11, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 12, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 12, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 12, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 12, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 12, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
+    {"id": 12, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True},
 ]
 
 FILEPATH = "./pages/products.html"
@@ -22,12 +33,8 @@ for i in range(len(product_list)):
                     <br>
                     <div class = "items"> 
                     <div class ="inside_items"> 
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" width=100> 
+                    <br><br>
                     <strong>{product_list[i]["Name"]}</strong>
                     <br>
                     {product_list[i]["Price"]} $<br> 
