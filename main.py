@@ -15,20 +15,6 @@ templates = TemplateLookup(directories=["templates"], input_encoding="utf-8")
 app = FastAPI()
 
 
-@app.get("/home", response_class=HTMLResponse)
-async def home2(request: Request):
-    template = templates.get_template("index.html")
-
-    html = template.render(
-        title="My FastAPI App",
-        message="Hello from FastAPI and Mako!",
-        username="e",
-        is_logged_in=True,
-    )
-
-    return HTMLResponse(content=html)
-
-
 @app.get("/", response_class=HTMLResponse)
 def home():
     return home_page
@@ -54,6 +40,6 @@ def contact():
     return contact_page
 
 
-@app.get("/styles.css")
+@app.get("/newstyles.css")
 def styles():
-    return FileResponse("pages/styles.css")
+    return FileResponse("pages/newstyles.css")
