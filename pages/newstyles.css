@@ -161,8 +161,8 @@ form {
 }
 
 .inside_items {
-  background-color: #fefefd;
   border-radius: 20px;
+  background-color: #fefefd;
   border: 2px solid rgb(211, 211, 211);
   width: 150px;
   height: 220px;
@@ -193,8 +193,6 @@ form {
   align-items: center;
 }
 strong:hover {
-  font-weight: bolder;
-  font-size: 19px;
   color: #c43838;
   text-decoration: underline;
 }
@@ -247,10 +245,13 @@ h3 {
 .sidebar{
     width: 1000px;
     height: 1000px;
-    background-color: #a42727;
+    background-color: #fefefd;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 7px;
     margin-top: 15px;
     margin-left: 40px;
     margin-right: 20px;
+    padding-top: 30px;
 
 }
 .product_page_products{
