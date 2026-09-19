@@ -6,7 +6,7 @@ im2 = "https://myimgs.org/storage/images/40540/image3.png"
 im3 = "https://iili.io/nz996X4.png"
 im4 = "https://i.ibb.co/jvb63rw2/image-6.png"
 im5 = "https://i.ibb.co/cKZfYy9N/image-9.png"
-
+im6 = "https://i.ibb.co/v60jTGXd/image-8.png"
 
 product_list: list[Dict] = [
     {
@@ -18,7 +18,7 @@ product_list: list[Dict] = [
     },
     {
         "id": 2,
-        "Name": "Hay lePhone 15 Pro",
+        "Name": "TouchPhone 20 Pro",
         "Price": 1599.99,
         "In Stock": True,
         "Img": im2,
@@ -44,7 +44,13 @@ product_list: list[Dict] = [
         "In Stock": True,
         "Img": im5,
     },
-    {"id": 6, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
+    {
+        "id": 6,
+        "Name": "ELC-2 Wireless Headphones",
+        "Price": 149.99,
+        "In Stock": True,
+        "Img": im6,
+    },
     {"id": 7, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
     {"id": 8, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
     {"id": 9, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},

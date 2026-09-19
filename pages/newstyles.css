@@ -7,7 +7,7 @@ nav{
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    height: 75px;
+    height: 85px;
     background-color: #a42727;
     color: #edebeb;
     display: flex;
@@ -20,8 +20,17 @@ nav{
 
 }
 .logo{
-    font-size: 32px;
+
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
     font-weight: bold;
+    margin-right: 0px;
+    padding-left: 10px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 2.5);
+
+
 
 }
 
@@ -46,8 +55,8 @@ nav{
 
  }
 
-menu li a:hover{
-    background-color: aqua;
+a:hover{
+    text-decoration: underline;
 
 }
 
@@ -60,6 +69,9 @@ menu li a:hover{
 }
 .search form{
     display: flex;
+        align-items: center;
+        margin-left: 0px;
+
 
 }
 
@@ -70,6 +82,9 @@ menu li a:hover{
     border-radius: 5px;
     margin-right: 10px;
     font-size: 16px;
+
+    width: 550px;
+    margin-left: 120px;
 }
 
 .search input:hover{
@@ -84,10 +99,12 @@ menu li a:hover{
 
 
 body {
+    
     background-color: #fafafa;
   font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    align-self: start;
+    justify-content: center;
+    align-self: center;
 }
 head {
   background-color: #a42727;
@@ -120,17 +137,13 @@ button {
 
 button:hover{
     background-color: #c43838;
+    cursor: pointer;
 }
 form {
   display: inline;
 }
 
-.head_bar {
-  background-color: rgb(164, 39, 39);
-  text-shadow: 21px, black;
-  text-align: center;
-  height: 180px;
-}
+
 
 .login {
   margin-top: 150px;
@@ -151,18 +164,38 @@ form {
   align-items: center; /* Centers vertically */
 }
 
+
+.products{
+    
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+
+  background-color: #f8f8f8;
+      border: 2px solid rgb(191, 180, 180);
+    padding-top: 20px;
+    border-radius: 9px;
+
+}
+
 .inside_items{
   background-color: #fefefd;
   border-radius: 20px;
   border: 2px solid rgb(211, 211, 211);
-  width: 175px;
+  width: 150px;
   height: 220px;
-  padding: 35px;
+  padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-bottom: 40px;
+
 
 
 }
 .inside_items:hover{
       border: 2px solid rgb(167, 167, 167);
+          cursor: pointer;
+
 }
 
 .items{
@@ -178,28 +211,18 @@ form {
 }
 
 
+.new_products{
+    display: flex;
+    align-items: center;
+    
+
+}
 strong:hover{
     font-weight: bolder;
     font-size: 19px;
     color: #c43838;
     text-decoration: underline;
-
-}
-.products{
-    padding-top: 200px;
-      margin: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items:center ;
-  justify-content: center;
-  margin-left: 160px;
-  margin-right: 160px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  background-color: #f8f8f8;
-      border: 2px solid rgb(191, 180, 180);
-    padding-top: 20px;
-    border-radius: 9px;
+    
 
 }
 
