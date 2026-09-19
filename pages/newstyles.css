@@ -237,6 +237,22 @@ h3 {
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 2.5);
 }
 
+
+.product_page_container{
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.sidebar{
+    width: 1000px;
+    height: 1000px;
+    background-color: #a42727;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
 .product_page_products{
     display: flex;
     flex-direction: row;
