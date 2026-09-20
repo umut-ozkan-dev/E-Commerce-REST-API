@@ -8,7 +8,7 @@ nav {
   box-sizing: border-box;
   width: 100%;
   height: 85px;
-  background-color: #a42727;
+  background-color: #c20c0c;
   color: #edebeb;
   display: flex;
   justify-content: space-between;
@@ -93,7 +93,7 @@ body {
   align-self: center;
 }
 head {
-  background-color: #a42727;
+  background-color: #e81221;
 }
 
 h1 {
@@ -215,10 +215,10 @@ strong:hover {
   height: 600px;
   width: 600px;
   margin-left: 645px;
-  padding-top: 20px;
+  padding-top: 420px;
 
   align-items: start;
-  background-color: #f3f3f3;
+  background-color: #fefefd;
   border: 2px solid rgb(191, 180, 180);
   padding-top: 20px;
   border-radius: 20px;
@@ -267,4 +267,12 @@ h3 {
 .sidebar ul li {
   list-style: none;
   justify-self: start;
+}
+
+
+.items .inside_items .item_name{
+      text-decoration: none;
+      color: #000;
+      cursor: pointer;
+
 }

@@ -13,7 +13,7 @@ for i in range(6):
                     <div class ="inside_items"> 
                     <img src="{product_list[i]["Img"]}" width=130>
                                         <hr>
-                    <strong>{product_list[i]["Name"]}</strong>
+                    <strong><a class="item_name" href="./products/{product_list[i]["id"]}">{product_list[i]["Name"]}</a></strong>
                     <br>
                                         <br>
                     ${product_list[i]["Price"]} <br> 
