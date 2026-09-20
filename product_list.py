@@ -7,6 +7,9 @@ im3 = "https://iili.io/nz996X4.png"
 im4 = "https://i.ibb.co/jvb63rw2/image-6.png"
 im5 = "https://i.ibb.co/cKZfYy9N/image-9.png"
 im6 = "https://i.ibb.co/v60jTGXd/image-8.png"
+im7 = "https://i.ibb.co/m5PfNQvx/image-5.png"
+im8 = "https://i.ibb.co/Xrn4w8T2/image-7.png"
+im9 = "https://i.ibb.co/bMXTjjqk/image-7-1.png"
 
 product_list: list[Dict] = [
     {
@@ -18,14 +21,14 @@ product_list: list[Dict] = [
     },
     {
         "id": 2,
-        "Name": "TouchPhone 20 Pro",
+        "Name": "TouchPhone 20 Advanced",
         "Price": 1599.99,
         "In Stock": True,
         "Img": im2,
     },
     {
         "id": 3,
-        "Name": "PearPods High ASP",
+        "Name": "PearPods Ultra2 Headphones",
         "Price": 299.99,
         "In Stock": True,
         "Img": im3,
@@ -51,9 +54,27 @@ product_list: list[Dict] = [
         "In Stock": True,
         "Img": im6,
     },
-    {"id": 7, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
-    {"id": 8, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
-    {"id": 9, "Name": "Leadwise Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
+    {
+        "id": 7,
+        "Name": "Pear Notebook Pro 5 Light",
+        "Price": 2199.99,
+        "In Stock": True,
+        "Img": im7,
+    },
+    {
+        "id": 8,
+        "Name": "Pear Smartwatch Athelete Version",
+        "Price": 279.99,
+        "In Stock": True,
+        "Img": im8,
+    },
+    {
+        "id": 9,
+        "Name": "AeroVibe – Stratos X9 Drone",
+        "Price": 7999.99,
+        "In Stock": True,
+        "Img": im9,
+    },
     {"id": 10, "Name": "Leadwise ", "Price": 79.99, "In Stock": True, "Img": im1},
     {"id": 11, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im1},
     {"id": 12, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im1},

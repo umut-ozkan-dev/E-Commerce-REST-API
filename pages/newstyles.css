@@ -161,7 +161,7 @@ form {
 }
 
 .inside_items {
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #fefefd;
   border: 2px solid rgb(211, 211, 211);
   width: 150px;
@@ -196,6 +196,9 @@ strong:hover {
   color: #c43838;
   text-decoration: underline;
 }
+strong{
+    font-weight: lighter;
+}
 
 .shopping_class {
   height: 600px;
@@ -227,6 +230,7 @@ strong:hover {
 
 h3 {
   font-size: x-large;
+  justify-content: start;
 }
 
 .page_title {
@@ -256,6 +260,40 @@ h3 {
     padding-top: 10px;
 
 }
+.sidebar h3{
+    display: flex;
+    justify-content: start;
+    margin-left: 23px;
+}
+.sidebar ul{
+        border: 2px solid rgb(211, 211, 211);
+        border-radius: 7px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #f7f9f9;
+
+
+
+}
+.sidebar ul li{
+    margin-top: 10px;
+}
+.sidebar ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #656565;
+    list-style: none;
+    text-decoration: none;
+    margin-left: -20px;
+    
+}
+.sidebar ul li a:hover{
+    color: #1d1d1d;
+    text-decoration: underline;
+    
+}
 .product_page_products{
     padding-top: 20px;
     width: 3000px;
@@ -279,18 +317,23 @@ h3 {
 
 .items .inside_items .item_name{
       text-decoration: none;
-      color: #000;
+      color: #161616;
       cursor: pointer;
 
 }
 
 .inside_items a {
     text-decoration: none;
-    color: #000;
+    color: #2c2c2c;
 
 }
 
 .inside_items a:hover {
     color: #c43838;
 
+}
+.price{
+    
+    color: #c20c0c;
+    font-weight: bold;
 }

@@ -15,8 +15,8 @@ for i in range(6):
                                         <hr>
                     <strong><a class="item_name" href="./products/{product_list[i]["id"]}">{product_list[i]["Name"]}</a></strong>
                     <br>
-                                        <br>
-                    ${product_list[i]["Price"]} <br> 
+                                        <br><div class="price">
+                    ${product_list[i]["Price"]}</div> <br> 
                     </div>
                     </div>
                     <br><br><br>
