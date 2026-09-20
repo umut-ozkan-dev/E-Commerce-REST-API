@@ -99,14 +99,10 @@ nav {
 }
 
 body {
-  background-color: #f7f9f9;
+  background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  justify-content: center;
   align-self: center;
-}
-head {
-  background-color: #e81221;
 }
 
 h1 {
@@ -162,12 +158,13 @@ form {
 }
 
 .products {
+    width: 1000px;
+    margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #f7f9f9;
   border: 2px solid rgb(191, 180, 180);
   padding-top: 20px;
   border-radius: 9px;
@@ -308,6 +305,7 @@ h3 {
     
 }
 .product_page_products{
+    background-color: #fefefd;
     padding-top: 20px;
     width: 3000px;
     border: 2px solid rgb(211, 211, 211);
@@ -339,10 +337,12 @@ h3 {
     text-decoration: none;
     color: #2c2c2c;
 
+
 }
 
 .inside_items a:hover {
     color: #c43838;
+    font-weight: bold;
 
 }
 .price{

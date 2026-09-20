@@ -6,7 +6,7 @@ with open(FILEPATH) as f:
     home_page = f.read()
 
 
-for i in range(6):
+for i in range(12):
     home_page += f""" 
                     <br>
                     <div class = "items"> 
