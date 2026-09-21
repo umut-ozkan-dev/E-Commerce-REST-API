@@ -1,42 +1,43 @@
 from typing import Dict
 
 # Images
-im1 = "https://m.media-amazon.com/images/I/61nopcyWSXL.jpg"
-im2 = "https://myimgs.org/storage/images/40540/image3.png"
-im3 = "https://iili.io/nz996X4.png"
-im4 = "https://i.ibb.co/jvb63rw2/image-6.png"
-im5 = "https://i.ibb.co/cKZfYy9N/image-9.png"
-im6 = "https://i.ibb.co/v60jTGXd/image-8.png"
-im7 = "https://i.ibb.co/m5PfNQvx/image-5.png"
-im8 = "https://i.ibb.co/Xrn4w8T2/image-7.png"
-im9 = "https://i.ibb.co/bMXTjjqk/image-7-1.png"
+im1 = "https://i.ibb.co/gZWjpj4X/image-1.png"
+im2 = "https://i.ibb.co/Z6ZGkVHH/image-2.png"
+im3 = "https://i.ibb.co/4RVPgDfk/image-3.png"
+im4 = "https://i.ibb.co/4RBNgzBj/image-4.png"
+im5 = "https://i.ibb.co/JWhDmdqG/image-5.png"
+im6 = "https://i.ibb.co/dsNtgwBS/image-6.png"
+im7 = "https://i.ibb.co/bMXTjjqk/image-7-1.png"
+im8 = "https://i.ibb.co/n8Z1xw8B/image-8.png"
+im9 = "https://i.ibb.co/HDRkdrXt/image-9.png"
 
 product_list: list[Dict] = [
     {
         "id": 1,
-        "Name": "SleepWawe Alarm Clock",
-        "Price": 29.99,
-        "In Stock": True,
+        "Name": "TerraStore Large Tent",
+        "Price": 299.99,
+        "Quantity ": 22,
+        "Category": "Tent",
         "Img": im1,
     },
     {
         "id": 2,
-        "Name": "TouchPhone 20 Advanced",
-        "Price": 1599.99,
+        "Name": "Pine Fire-starting Kit",
+        "Price": 49.99,
         "In Stock": True,
         "Img": im2,
     },
     {
         "id": 3,
-        "Name": "PearPods Ultra2 Headphones",
-        "Price": 299.99,
+        "Name": "TerraStore Large Headlight Orange ",
+        "Price": 29.99,
         "In Stock": True,
         "Img": im3,
     },
     {
         "id": 4,
-        "Name": 'HDW Monitor 55" 4K Smart TV',
-        "Price": 799.99,
+        "Name": 'FrostMatch Sleeping Mat ',
+        "Price": 199.99,
         "In Stock": True,
         "Img": im4,
     },
