@@ -2,7 +2,7 @@ from typing import Dict
 # Small Images
 im1 = "https://i.ibb.co/9mN3PSnp/image-1.webp"
 im2 = "https://i.ibb.co/jvnd2Ptv/image-2.webp"
-im3 = "https://i.ibb.co/GQHm2tSr/image-3.webp"
+im3 = "https://cdn.myimgs.org/images/43305/image_3.png"
 im4 = "https://i.ibb.co/bgmXn67N/image-4.webp"
 im5 = "https://i.ibb.co/VpwddzLv/image-5.webp"
 im6 = "https://i.ibb.co/Fb1HVG7j/image-6.webp"
