@@ -231,14 +231,18 @@ strong{
   border-radius: 20px;
   text-align: center;
 }
-
+.contact_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .send_message {
+    justify-content: center;
+    align-items: center;
   height: 600px;
   width: 600px;
-  margin-left: 645px;
-  padding-top: 420px;
+  margin-bottom: 140px;
 
-  align-items: start;
   background-color: #fefefd;
   border: 2px solid rgb(191, 180, 180);
   padding-top: 20px;
