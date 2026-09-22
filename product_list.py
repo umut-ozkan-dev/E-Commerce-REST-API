@@ -71,8 +71,8 @@ product_list: list[Dict] = [
     },
     {
         "id": 7,
-        "Name": "AeroVibe – Stratos X9 Drone",
-        "Price": 4299.99,
+        "Name": "IronTrail Camping Utensils Set",
+        "Price": 39.99,
         "In Stock": True,
         "Img": im7,
     },
