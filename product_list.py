@@ -12,7 +12,13 @@ im8 = "https://i.ibb.co/9mN3PSnp/image-1.webp"
 im9 = "https://i.ibb.co/mFzMDR4G/image-10.webp"
 im10 = "https://i.ibb.co/Q7HWtZX2/image-11.webp"
 im11 = "https://ibb.co/XZ3tt4TC"
-
+im12 = "https://i.ibb.co/jZhchyMY/image-12.webp"
+im13 = "https://i.ibb.co/YBd53w8w/image-13.webp"
+im14 = "https://i.ibb.co/sdbqgcKh/image-14.webp"
+im15 = "https://i.ibb.co/gMj7KTCp/image-15.webp"
+im16 = "https://i.ibb.co/7tWQZffc/image-16.webp"
+im17 = "https://i.ibb.co/pr1VMqx6/image-17.webp"
+im18 = "https://i.ibb.co/Kzp16dSD/image-18.webp"
 
 # Large Images
 IMG1 = "https://i.ibb.co/n8Z1xw8B/image-8.png"
@@ -97,14 +103,14 @@ product_list: list[Dict] = [
         "In Stock": True,
         "Img": im10,
     },
-    {"id": 11, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 12, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 13, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 14, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 15, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 16, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 17, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
-    {"id": 18, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
+    {"id": 11, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im11},
+    {"id": 12, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im12},
+    {"id": 13, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im13},
+    {"id": 14, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im14},
+    {"id": 15, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im15},
+    {"id": 16, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im16},
+    {"id": 17, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im17},
+    {"id": 18, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im18},
     {"id": 19, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
     {"id": 20, "Name": " Monitor", "Price": 79.99, "In Stock": True, "Img": im2},
 ]
