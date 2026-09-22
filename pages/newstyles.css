@@ -160,6 +160,7 @@ form {
 }
 
 .main_page_products {
+    width: 865px;
     background-color: #fefefd;
     padding-top: 20px;
     border: 2px solid rgb(211, 211, 211);
@@ -210,6 +211,8 @@ strong:hover {
   color: #d75708;
   text-decoration: underline;
   font-weight: bold;
+  
+
 }
 strong{
     font-weight: lighter;
