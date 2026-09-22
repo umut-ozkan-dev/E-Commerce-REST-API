@@ -159,17 +159,19 @@ form {
   align-items: center; /* Centers vertically */
 }
 
-.products {
-    width: 1200px;
-    margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgb(191, 180, 180);
-  padding-top: 20px;
-  border-radius: 9px;
+.main_page_products {
+    background-color: #fefefd;
+    padding-top: 20px;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 25px;
+    justify-content: center;
 }
 
 .inside_items {
@@ -206,6 +208,8 @@ form {
 }
 strong:hover {
   color: #d75708;
+  text-decoration: underline;
+  font-weight: bold;
 }
 strong{
     font-weight: lighter;
