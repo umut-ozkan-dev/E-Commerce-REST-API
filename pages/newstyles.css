@@ -356,3 +356,15 @@ h3 {
     color: #d75708;
     font-weight: bold;
 }
+
+footer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e240c;
+    color: #ddd;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
