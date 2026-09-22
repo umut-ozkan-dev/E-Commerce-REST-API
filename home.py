@@ -6,7 +6,8 @@ from products import empty_list, product
 with open(FILEPATH, "r", encoding="utf-8") as file:
     raw_html = file.read()
     empty_list = ""
-    for i in range(4):
+    
+    for i in range(10):
         product = f"""  <div class ="inside_items"> 
                                 <img src="{product_list[i]["Img"]}" width=130>
                                 <hr>
