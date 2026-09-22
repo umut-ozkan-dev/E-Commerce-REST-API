@@ -1,15 +1,28 @@
 from typing import Dict
+# Small Images
+im1 = "https://i.ibb.co/9mN3PSnp/image-1.webp"
+im2 = "https://i.ibb.co/jvnd2Ptv/image-2.webp"
+im3 = "https://i.ibb.co/GQHm2tSr/image-3.webp"
+im4 = "https://i.ibb.co/bgmXn67N/image-4.webp"
+im5 = "https://i.ibb.co/VpwddzLv/image-5.webp"
+im6 = "https://i.ibb.co/Fb1HVG7j/image-6.webp"
+im7 = "https://i.ibb.co/994w97Kq/image-8.webp"
+im8 = "https://i.ibb.co/7dLCRxDv/image-9.webp"
+im9 = "https://i.ibb.co/mFzMDR4G/image-10.webp"
+im10 = "https://i.ibb.co/Q7HWtZX2/image-11.webp"
+im11 = "https://ibb.co/XZ3tt4TC"
 
-# Images
-im1 = "https://i.ibb.co/gZWjpj4X/image-1.png"
-im2 = "https://i.ibb.co/Z6ZGkVHH/image-2.png"
-im3 = "https://i.ibb.co/4RVPgDfk/image-3.png"
-im4 = "https://i.ibb.co/4RBNgzBj/image-4.png"
-im5 = "https://i.ibb.co/JWhDmdqG/image-5.png"
-im6 = "https://i.ibb.co/dsNtgwBS/image-6.png"
-im7 = "https://i.ibb.co/bMXTjjqk/image-7-1.png"
-im8 = "https://i.ibb.co/n8Z1xw8B/image-8.png"
-im9 = "https://i.ibb.co/HDRkdrXt/image-9.png"
+
+# Large Images
+IMG1 = "https://i.ibb.co/gZWjpj4X/image-1.png"
+IMG2 = "https://i.ibb.co/Z6ZGkVHH/image-2.png"
+IMG3 = "https://i.ibb.co/4RVPgDfk/image-3.png"
+IMG4 = "https://i.ibb.co/4RBNgzBj/image-4.png"
+IMG5 = "https://i.ibb.co/JWhDmdqG/image-5.png"
+IMG6 = "https://i.ibb.co/dsNtgwBS/image-6.png"
+IMG7 = "https://i.ibb.co/bMXTjjqk/image-7-1.png"
+IMG8 = "https://i.ibb.co/n8Z1xw8B/image-8.png"
+IMG9 = "https://i.ibb.co/HDRkdrXt/image-9.png"
 
 product_list: list[Dict] = [
     {
