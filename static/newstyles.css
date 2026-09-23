@@ -352,16 +352,19 @@ footer {
   justify-content: center;
   background-color: #3e240c;
   color: #ddd;
-  padding-bottom: 10px;
+  padding-bottom: 400px;
   padding-top: 10px;
   margin-top: 50px;
   margin-bottom: -10px;
 }
 
 .item_page_container {
+  width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
+  justify-self: center;
   margin-top: 250px;
   margin-bottom: 195px;
   margin-right: 350px;
@@ -380,23 +383,38 @@ footer {
 }
 
 .info {
+  width: 430px;
+  height: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   align-items: left;
   margin-left: 100px;
   border: 2px solid rgb(211, 211, 211);
-  padding-left: 40px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .info button {
-  margin-left: 70px;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .item_info_p {
+  width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: start;
   gap: 0px;
+}
+
+.item_page_price{
+    margin-top: -30px;
+    margin-bottom: 15px;
+    color: #d75708;
+    font-size: 22px;
 }
