@@ -131,7 +131,7 @@ button {
 }
 
 button:hover {
-  background-color: #c43838;
+  background-color: #ffb74a;
   cursor: pointer;
 }
 form {
@@ -361,37 +361,34 @@ footer {
 .item_page_container {
   display: flex;
   align-items: center;
-  margin-top: 200px;
-  margin-bottom: 168px;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 195px;
   margin-right: 350px;
   margin-left: 350px;
-  padding-bottom: 102px;
+  padding-bottom: 60px;
   padding-top: 60px;
-  padding-left: 50px;
-  padding-right: 20px;
 
   border: 2px solid rgb(211, 211, 211);
   border-radius: 10px;
 }
 
 .item_page_container img {
-  margin-left: 30px;
+  margin-left: 0px;
   border: 2px solid rgb(211, 211, 211);
-  padding: 30px;
+  padding: 0px;
 }
 
 .info {
   align-items: left;
   margin-left: 100px;
+  border: 2px solid rgb(211, 211, 211);
   padding-left: 40px;
   padding-right: 80px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  border: 2px solid rgb(211, 211, 211);
 }
 
 .info button {
-  margin-left: 60px;
+  margin-left: 70px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
