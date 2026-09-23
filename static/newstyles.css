@@ -359,19 +359,19 @@ footer {
 }
 
 .item_page_container {
-  width: 1200px;
+  width: 1070px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   align-self: center;
   justify-self: center;
-  margin-top: 250px;
-  margin-bottom: 195px;
-  margin-right: 350px;
-  margin-left: 350px;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  margin-top: 215px;
+  margin-bottom: 161px;
+
+  padding-bottom: 30px;
+  padding-top: 30px;
+
 
   border: 2px solid rgb(211, 211, 211);
   border-radius: 10px;
@@ -396,16 +396,19 @@ footer {
   align-items: center;
   justify-content: center;
   align-items: left;
-  margin-left: 100px;
+  margin-left: 20px;
   border: 2px solid rgb(211, 211, 211);
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 100px;
   padding-top: 20px;
 }
 
 .info button {
   margin-top: 60px;
   margin-bottom: 40px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
 .item_info_p {
@@ -426,7 +429,7 @@ footer {
 
 .description {
   width: 1012px;
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 
@@ -436,9 +439,13 @@ footer {
 .description h4 {
   display: flex;
   align-items: start;
+    padding-left: 15px;
+    margin-bottom: -5px;
+
 }
 
 .description_paragraph {
-  display: flex;
-  align-items: start;
+    text-align: left;
+      padding-left: 15px;
+
 }
