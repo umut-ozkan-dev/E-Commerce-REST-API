@@ -74,7 +74,7 @@ product_list: list[Dict] = [
     },
     {
         "id": 2,
-        "Name": "TerraStore Large Headlight Orange ",
+        "Name": "FirePeak Large Headlight Orange ",
         "Price": 29.99,
         "In Stock": True,
         "Img": im3,

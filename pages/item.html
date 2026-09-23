@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Contact - Green Camper</title>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="/static/newstyles.css">
-  </head>
-  <body>
-  <nav>
-    <div class="logo_container">
-      <div class="logo">Green Camper 🌲 <div class="small_logo">Since 1992</div>
-      </div>
-    </div>
-    <div class="search">
-      <form>
-        <input type="text" placeholder="Search...">
-      </form>
-      <button type="submit">Go</button>
-    </div>
-    <ul class="menu">
-      <li>
-        <a href="./">Home</a>
-      </li>
-      <li>
-        <a href="./">Products</a>
-      </li>
-      <li>
-        <a href="./">Login</a>
-      </li>
-      <li>
-        <a href="./">Cart</a>
-      </li>
-      <li>
-        <a href="./">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="item_page_container" >
-    <img src="{{Img}}" width="438px">
-    <div class="info">
-    <div class=item_info_p> 
-    <h3>{{Name}}</h3>
-    <div class="item_page_price" >
-    <p><b>{{Price}}$</b> </div>
-    <p><b>Product ID :</b> {{id}}</p>
-    <p><b>Category</b> : Category</p>
-    <p><b>Quantity</b> : Quantity</p>
-        </div>
+</head>
 
-    <button>Add to Cart</button>
+<body>
+    <nav>
+        <div class="logo_container">
+            <div class="logo">Green Camper 🌲 <div class="small_logo">Since 1992</div>
+            </div>
+        </div>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search...">
+            </form>
+            <button type="submit">Go</button>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="./">Home</a>
+            </li>
+            <li>
+                <a href="./">Products</a>
+            </li>
+            <li>
+                <a href="./">Login</a>
+            </li>
+            <li>
+                <a href="./">Cart</a>
+            </li>
+            <li>
+                <a href="./">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="item_page_container">
+        <div class="img_and_info">
+            <img src="{{Img}}" width="438px">
+            <div class="info">
+                <div class=item_info_p>
+                    <h3>{{Name}}</h3>
+                    <div class="item_page_price">
+                        <p><b>{{Price}}$</b>
+                    </div>
+                    <p><b>Product ID :</b> {{id}}</p>
+                    <p><b>Category</b> : Category</p>
+                    <p><b>Quantity</b> : Quantity</p>
+                </div>
+
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="description">
+            <h4>Description</h4>
+            <p class="description_paragraph">Start your fire quickly and effortlessly
+                with our reliable fire starter.
+                Designed for camping, barbecues, fireplaces,
+                and outdoor adventures, it provides a quick
+                and convenient way to get your fire going.
+                Compact, easy to use, and ideal for everyday and outdoor use.</p>
+
+
+        </div>
     </div>
     </div>
-  </div>
-  </div>
-  <footer>
-    <p>Green Camper - Since 1992</p>
-  </footer>
-  </body>
+    </div>
+    <footer>
+        <p>Green Camper - Since 1992</p>
+    </footer>
+</body>
+
 </html>
