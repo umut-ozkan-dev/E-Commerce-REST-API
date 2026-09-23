@@ -38,21 +38,37 @@
             </li>
         </ul>
     </nav>
+    <div id="product_title_container">
+
+        <h1 id="product_title">Product : {{Name}} </h1>
+    </div>
+
+
+    </div>
     <div class="item_page_container">
         <div class="img_and_info">
             <img src="{{Img}}" width="438px">
             <div class="info">
                 <div class=item_info_p>
                     <h3>{{Name}}</h3>
-                    <div class="item_page_price">
-                        <p><b>{{Price}}$</b>
-                    </div>
+                    <hr id="hr">
+
+
+
                     <p><b>Product ID :</b> {{id}}</p>
                     <p><b>Category</b> : Category</p>
                     <p><b>Quantity</b> : Quantity</p>
+                    <br><br>
+                    <div class="item_page_price">
+                        <p><b>{{Price}}$</b>
+                    </div>
+                                                
+
+                </div>
+                <div id="item_page_buttons">
+                    <button id="item_page_buttons_1">Add to Cart</button><button>Buy Now</button>
                 </div>
 
-                <button>Add to Cart</button>
             </div>
         </div>
         <div class="description">
