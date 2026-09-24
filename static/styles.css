@@ -526,3 +526,42 @@ footer {
   margin-top: -15px;
   margin-bottom: 25px;
 }
+
+.login_container {
+  width: 700px;
+  margin-top: 150px;
+  margin-bottom: 407px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  text-align: start;
+  align-content: start;
+  justify-content: start;
+  align-self: flex-start;
+  justify-self: center;
+  flex-direction: column;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 15px;
+}
+
+.login_container h2 {
+  color: rgb(80, 80, 80);
+  text-shadow: none;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_container h4 {
+  color: rgb(80, 80, 80);
+}
+.login_container button {
+  width: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login_page_input {
+  height: 30px;
+  border-radius: 7px;
+  border: 2px solid rgb(211, 211, 211);
+}
