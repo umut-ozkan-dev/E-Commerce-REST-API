@@ -56,6 +56,6 @@ def get_products(id: int):
     return item_page
 
 
-@app.get("/newstyles.css")
+@app.get("/styles.css")
 def styles():
-    return FileResponse("pages/newstyles.css")
+    return FileResponse("pages/styles.css")

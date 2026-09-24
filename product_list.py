@@ -75,7 +75,7 @@ product_list: list[Dict] = [
     },
     {
         "id": 9,
-        "Name": "Frosty 1.5L Stainless Steel Thermos",
+        "Name": "Frosty 1.5L Steel Thermos",
         "Price": 79.99,
         "Quantity": 20,
         "Category": "None",
