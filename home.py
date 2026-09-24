@@ -7,7 +7,7 @@ with open(FILEPATH, "r", encoding="utf-8") as file:
     raw_html = file.read()
     empty_list = ""
 
-    home_page_items_list = [19, 15, 0, 32, 27, 40, 18, 22, 9, 23]
+    home_page_items_list = [19, 15, 0, 21, 27, 40, 18, 22, 9, 23]
     for i in home_page_items_list:
         product = f"""  <div class ="inside_items"> 
                                 <img src="{product_list[i]["Img"]}" width=130>
