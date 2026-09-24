@@ -156,23 +156,30 @@ form {
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
 }
-.add_home_page_items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-
+.add_home_page_items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#home_page_discount_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #d75708;
+  padding-bottom: 4px;
+  height: 45px;
+  margin-top: -10px;
 }
 
-#add1{
-    width: 350px;
-    margin-top: 28px;
-    margin-left: -10px;
-    margin-right: 90px;
-      border: 2px solid rgb(211, 211, 211);
-      border-radius: 7px;
-
+#add1 {
+  width: 350px;
+  margin-top: 28px;
+  margin-left: -10px;
+  margin-right: 90px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 7px;
 }
 .main_page_products {
   transform: scale(1.09);

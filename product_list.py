@@ -155,7 +155,7 @@ product_list: list[Dict] = [
     },
     {
         "id": 19,
-        "Name": " Monitor",
+        "Name": "NatureHike 15L Blue Backpack",
         "Price": 79.99,
         "Quantity": 20,
         "Category": "None",
