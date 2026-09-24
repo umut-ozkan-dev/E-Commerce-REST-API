@@ -50,6 +50,8 @@ def get_products(id: int):
     raw_item_page = raw_item_page.replace("{{Name}}", str(product_list[id]["Name"]))
     raw_item_page = raw_item_page.replace("{{Price}}", str(product_list[id]["Price"]))
     raw_item_page = raw_item_page.replace("{{Img}}", str(product_list[id]["Img"]))
+    raw_item_page = raw_item_page.replace("{{Category}}", str(product_list[id]["Category"]))
+    raw_item_page = raw_item_page.replace("{{Quantity}}", str(product_list[id]["Quantity"]))
     item_page = raw_item_page
     return item_page
 
