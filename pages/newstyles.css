@@ -227,6 +227,16 @@ form {
   background-color: #a42727;
 }
 
+#login_button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(191, 180, 180);
+}
+#login_button:hover {
+  background-color: rgb(191, 180, 180);
+  color: white;
+}
+
 .new_products {
   display: flex;
   align-items: center;
