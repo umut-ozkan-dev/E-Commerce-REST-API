@@ -147,11 +147,11 @@ product_list: list[Dict] = [
     },
     {
         "id": 18,
-        "Name": "NatureHike Camping Cup",
-        "Price": 44.99,
+        "Name": "NatureHike Winter Puffer H-Series",
+        "Price": 444.99,
         "Quantity": 20,
         "Category": "None",
-        "Img": "https://i.ibb.co/Fb8GqyGX/image-19.webp",
+        "Img": "https://i.ibb.co/hR7MdsSh/image-19.webp",
     },
     {
         "id": 19,
