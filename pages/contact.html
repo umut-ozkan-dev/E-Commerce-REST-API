@@ -1,28 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
     <meta charset="utf-8" />
-    <title>Contact - Green Camper</title>
+    <title>Login - Green Camper</title>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="static/styles.css" />
 </head>
 
 <body>
     <nav>
         <div class="logo_container">
-            <div class="logo">Green Camper 🌲 <div class="small_logo">Since 1992</div>
+            <div class="logo">
+                Green Camper 🌲
+                <div class="small_logo">Since 1992</div>
             </div>
         </div>
         <div class="search">
             <form>
-                <input type="text" placeholder="Search...">
+                <input type="text" placeholder="Search..." />
             </form>
             <button type="submit">Go</button>
         </div>
         <ul class="menu">
             <li>
-                <a href="./">Home</a>
+                <a href="/">Home</a>
             </li>
             <li>
                 <a href="/products">Products</a>
@@ -39,29 +41,15 @@
             </li>
         </ul>
     </nav>
-    <div class="contact_page">
-        <div class="send_message" style="margin-top: 190px;">
-            <h3>Contact Information:</h3>
-            <p> Email : highend_ecommerce@info </p>
-            <p>Phone : +1 (555) 019-2834 </p>
-            <p>Location : Ankara, Turkey </p>
-            <br>
-            <br>
-            <br>
-            <hr>
-            <h2> Send Us a Message </h2>
-            <br>
-            <br>
-            <div> Email : <input />
-            </div>
-            <br>
-            <div> Message : <input type=text />
-                <br>
-                <br>
-                <button>Submit</button>
-                <br>
-            </div>
-        </div>
+    <div class="login_container">
+
+        <h2>Contact</h2>
+        <h4>Email</h4>
+        <input class="login_page_input" id="email" type="text">
+        <h4>Password</h4>
+        <input class="login_page_input" id="password" type="text">
+
+        <button>Login</button>
     </div>
     <footer>
         <p>Green Camper - Since 1992</p>
