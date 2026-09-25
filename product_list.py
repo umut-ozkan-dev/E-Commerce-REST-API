@@ -63,7 +63,7 @@ product_list: list[Dict] = [
         "Price": 279.99,
         "Quantity": 20,
         "Category": "None",
-        "Img": "https://i.ibb.co/9mN3PSnp/image-1.webp",
+        "Img": "https://i.ibb.co/fVN9WkwW/image-1.webp",
     },
     {
         "id": 8,
@@ -323,6 +323,14 @@ product_list: list[Dict] = [
     },
     {
         "id": 40,
+        "Name": "Solo Stove Smokeless Fire Pit",
+        "Price": 119.99,
+        "Quantity": 20,
+        "Category": "None",
+        "Img": "https://i.ibb.co/bM0K0qRG/image-41.webp",
+    },
+    {
+        "id": 41,
         "Name": "Solo Stove Smokeless Fire Pit",
         "Price": 119.99,
         "Quantity": 20,
