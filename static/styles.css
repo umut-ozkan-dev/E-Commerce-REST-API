@@ -2,6 +2,15 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+h2 {
+  color: #2c2c2c;
+}
+h3 {
+  color: #2c2c2c;
+}
+h4 {
+  color: #2c2c2c;
+}
 
 nav {
   margin: 0;
@@ -174,11 +183,14 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   background-color: #d75708;
   padding-bottom: 4px;
   height: 45px;
   margin-top: -10px;
+}
+#home_page_discount_banner h3 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 #add1 {
@@ -190,7 +202,6 @@ form {
   border-radius: 7px;
 }
 
-/* V2'deki margin-right: 30px güncellemesi kullanıldı */
 .main_page_products {
   transform: scale(1.09);
   width: 1080px;
@@ -209,7 +220,6 @@ form {
   justify-content: center;
 }
 
-/* İç tekrarlar temizlendi (padding-bottom iki kez yazılmıştı) */
 .inside_items {
   border-radius: 10px;
   background-color: #fefefd;
@@ -245,8 +255,8 @@ form {
 }
 
 #login_button:hover {
-  background-color: rgb(191, 180, 180);
-  color: white;
+  background-color: rgb(254, 252, 252);
+  color: #2c2c2c;
 }
 
 .new_products {
@@ -342,7 +352,6 @@ h3 {
   background-color: #f7f9f9;
 }
 
-/* Ayrı açılan .sidebar ul li blokları tek blokta birleştirildi */
 .sidebar ul li {
   margin-top: 10px;
   list-style: none;
@@ -364,7 +373,7 @@ h3 {
 }
 
 .product_page_products {
-  background-color: #fefefd;
+  background-color: #fcfcfc;
   padding-top: 20px;
   width: 3000px;
   border: 2px solid rgb(211, 211, 211);
@@ -411,11 +420,8 @@ footer {
   margin-bottom: -10px;
 }
 
-/* ==================================================== /
-/ V2'DE EKLENEN YENİ ÜRÜN DETAY SAYFASI (ITEM PAGE) STİLLERİ /
-/ ==================================================== */
-
 .item_page_container {
+  background-color: #fcfcfc;
   width: 1070px;
   display: flex;
   flex-direction: column;
@@ -506,6 +512,7 @@ footer {
 
 #product_title_container {
   margin-top: 150px;
+  color: #656565;
 }
 
 #product_title {
@@ -528,11 +535,13 @@ footer {
 }
 
 .login_container {
+  background-color: #fcfcfc;
   width: 700px;
-  margin-top: 150px;
-  margin-bottom: 407px;
+  margin-top: 156px;
+  margin-bottom: 426px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 10px;
   display: flex;
   text-align: start;
   align-content: start;
@@ -549,13 +558,14 @@ footer {
   text-shadow: none;
   font-size: 36px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
 }
 
 .login_container h4 {
   color: rgb(80, 80, 80);
 }
 .login_container button {
-  width: 70px;
+  width: 80px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -565,3 +575,75 @@ footer {
   border-radius: 7px;
   border: 2px solid rgb(211, 211, 211);
 }
+
+.login_container p {
+  color: #656565;
+}
+.login_container a {
+  color: #d75708;
+  text-decoration: none;
+}
+.cart_page_container {
+  margin-top: 140px;
+  margin-bottom: 116px;
+  width: 1200px;
+  height: 750px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start    ;
+  border: 2px solid rgb(254, 253, 253);
+
+}
+.cart_container {
+  width: 800px;
+  height: 700px;
+  margin-bottom: 188px;
+  display: flex;
+  flex-direction: row;
+  gap: 125px;
+  justify-content: center;
+  justify-self: center;
+  align-content: center;
+  border: 2px solid rgb(211, 211, 211);
+  background-color: #fcfcfc;
+  border-radius: 15px;
+}
+
+.cart_container h4 {
+  color: #656565;
+  font-size: large;
+}
+
+.cart_container_titles {
+  width: 750px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 130px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 15px;
+}
+
+.checkout_box {
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  padding: 5px
+}
+
+.checkout_box button{
+    width: 110px;
+    align-self: center;
+}
+
