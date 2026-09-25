@@ -204,7 +204,7 @@ product_list: list[Dict] = [
     {
         "id": 25,
         "Name": "BAOFENG Dual UWR-X5",
-        "Price": 4799.99,
+        "Price": 799.99,
         "Quantity": 20,
         "Category": "None",
         "Img": "https://i.ibb.co/zh9MWSCy/image-26.webp",
@@ -323,14 +323,6 @@ product_list: list[Dict] = [
     },
     {
         "id": 40,
-        "Name": "Solo Stove Smokeless Fire Pit",
-        "Price": 119.99,
-        "Quantity": 20,
-        "Category": "None",
-        "Img": "https://i.ibb.co/bM0K0qRG/image-41.webp",
-    },
-    {
-        "id": 41,
         "Name": "Solo Stove Smokeless Fire Pit",
         "Price": 119.99,
         "Quantity": 20,
