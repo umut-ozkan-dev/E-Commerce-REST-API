@@ -271,7 +271,6 @@ strong {
 strong:hover {
   color: #d75708;
   text-decoration: underline;
-  font-weight: bold;
 }
 
 /* padding-top tekrarı temizlendi */
@@ -632,7 +631,7 @@ footer {
 }
 
 .checkout_box {
-    background-color: #fcfcfc;
+  background-color: #fcfcfc;
   width: 400px;
   height: 300px;
   margin-left: 20px;
@@ -649,7 +648,6 @@ footer {
 }
 
 .checkout_box h3 {
-
   padding-bottom: 10px;
   padding-top: 10px;
   margin-left: 5px;
@@ -660,5 +658,6 @@ footer {
   border-radius: 5px;
 }
 
-
-
+#contact_page_container{
+    margin-bottom: 178px;
+}
