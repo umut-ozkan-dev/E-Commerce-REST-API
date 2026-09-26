@@ -7,10 +7,6 @@ from item import raw_item_page
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
-from mako.lookup import TemplateLookup
-
-# Configure the template directory
-templates = TemplateLookup(directories=["templates"], input_encoding="utf-8")
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -50,8 +46,12 @@ def get_products(id: int):
     raw_item_page = raw_item_page.replace("{{Name}}", str(product_list[id]["Name"]))
     raw_item_page = raw_item_page.replace("{{Price}}", str(product_list[id]["Price"]))
     raw_item_page = raw_item_page.replace("{{Img}}", str(product_list[id]["Img"]))
-    raw_item_page = raw_item_page.replace("{{Category}}", str(product_list[id]["Category"]))
-    raw_item_page = raw_item_page.replace("{{Quantity}}", str(product_list[id]["Quantity"]))
+    raw_item_page = raw_item_page.replace(
+        "{{Category}}", str(product_list[id]["Category"])
+    )
+    raw_item_page = raw_item_page.replace(
+        "{{Quantity}}", str(product_list[id]["Quantity"])
+    )
     item_page = raw_item_page
     return item_page
 
