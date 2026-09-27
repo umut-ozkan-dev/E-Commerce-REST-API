@@ -616,6 +616,8 @@ footer {
 }
 .inside_cart_container {
   display: flex;
+  flex-direction: column;
+    gap: 7px;
   width: 750px;
   height: 610px;
   border: 2px solid rgb(211, 211, 211);
@@ -644,6 +646,14 @@ footer {
   gap: 130px;
   border: 2px solid rgb(211, 211, 211);
   border-radius: 5px;
+}
+
+.cart_item {
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  width: 725px;
+  display: flex;
+  flex-direction: row;
 }
 
 .checkout_box {

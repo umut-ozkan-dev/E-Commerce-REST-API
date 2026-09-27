@@ -52,7 +52,8 @@ def get_products(id: int):
                 item_page = raw
             return item_page
     raise HTTPException(
-        status_code=404, detail="Product not found. Please enter values between 0-40"
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail="Product not found. Please enter values between 0-40",
     )
 
 
