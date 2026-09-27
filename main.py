@@ -51,7 +51,9 @@ def get_products(id: int):
                 raw = raw.replace("{{Quantity}}", str(product_list[id]["Quantity"]))
                 item_page = raw
             return item_page
-    raise HTTPException(status_code=404)
+    raise HTTPException(
+        status_code=404, detail="Product not found. Please enter values between 0-40"
+    )
 
 
 @app.get("/styles.css")
