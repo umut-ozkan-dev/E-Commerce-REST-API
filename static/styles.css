@@ -408,6 +408,10 @@ h3 {
 }
 
 footer {
+  border: 2px solid #d6d3d3;
+  border-bottom: none;
+  border-left: #3e240c;
+  border-right: #3e240c;
   display: block;
   align-items: center;
   justify-content: center;
