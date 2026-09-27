@@ -659,15 +659,21 @@ footer {
 }
 
 .cart_item_info {
-
+  width: 700;
   display: flex;
   flex-direction: row;
-  gap: 20px;
   margin-left: 20px;
   justify-content: start;
   align-items: center;
 }
 
+.cart_item_price {
+  width: 330px;
+  display: flex;
+  justify-content: right;
+  color: #d75708;
+  font-weight: bold;
+}
 .checkout_box {
   background-color: #fcfcfc;
   width: 400px;
