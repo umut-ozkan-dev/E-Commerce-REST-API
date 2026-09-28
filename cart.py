@@ -4,7 +4,7 @@ from product_list import product_list
 with open(FILEPATH, "r", encoding="utf-8") as file:
     raw_html = file.read()
 
-ids_of_items_added = [2, 7, 3]
+ids_of_items_added = [1,2,5,9,5]
 result = ""
 
 for id in ids_of_items_added:
@@ -18,7 +18,7 @@ for id in ids_of_items_added:
 
     result = result + (cart_item_html)
 
-for item in cart_item_html:
+for item in cart_item_html :
     raw_html = raw_html.replace("{{cart_list}}", result)
 
 

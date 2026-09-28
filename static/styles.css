@@ -619,7 +619,7 @@ footer {
   flex-direction: column;
   gap: 10px;
   width: 750px;
-  height: 610px;
+  height: 600px;
   border: 2px solid rgb(211, 211, 211);
   border-radius: 5px;
   justify-content: start;
@@ -644,7 +644,7 @@ footer {
   justify-content: center;
   align-items: center;
 
-  gap: 130px;
+  gap: 180px;
   border: 2px solid rgb(211, 211, 211);
   border-radius: 5px;
 }
@@ -659,18 +659,22 @@ footer {
 }
 
 .cart_item_info {
-  width: 700;
+  width: 900px;
   display: flex;
   flex-direction: row;
   margin-left: 20px;
   justify-content: start;
   align-items: center;
 }
-
+.cart_item_text {
+    width: 200px;
+}
 .cart_item_price {
   width: 330px;
   display: flex;
   justify-content: right;
+  justify-self: right;
+  justify-items: right;
   color: #d75708;
   font-weight: bold;
 }
