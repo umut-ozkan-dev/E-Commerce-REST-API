@@ -650,6 +650,7 @@ footer {
 }
 
 .cart_item {
+  background-color: #ffffff;
   border: 2px solid rgb(211, 211, 211);
   border-radius: 5px;
   width: 725px;
@@ -659,6 +660,7 @@ footer {
 }
 
 .cart_item_info {
+  background-color: #ffffff;
   width: 900px;
   display: flex;
   flex-direction: row;
@@ -667,7 +669,7 @@ footer {
   align-items: center;
 }
 .cart_item_text {
-    width: 200px;
+  width: 200px;
 }
 .cart_item_price {
   width: 330px;

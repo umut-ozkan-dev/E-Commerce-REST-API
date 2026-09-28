@@ -7,6 +7,8 @@ from item import raw_item_page
 from fastapi import FastAPI, Request, HTTPException, status
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
+
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")

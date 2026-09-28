@@ -4,8 +4,9 @@ from product_list import product_list
 with open(FILEPATH, "r", encoding="utf-8") as file:
     raw_html = file.read()
 
-ids_of_items_added = [1,2,5,9,5]
-result = ""
+ids_of_items_added = [1, 2, 5, 9, 5]
+result: str = ""
+total_price: float = 0
 
 for id in ids_of_items_added:
     with open("./templates/cart_item.html", "r", encoding="utf-8") as file:
@@ -15,11 +16,12 @@ for id in ids_of_items_added:
     cart_item_html = cart_item_html.replace("{{Price}}", str(product_list[id]["Price"]))
     cart_item_html = cart_item_html.replace("\n", "")
     cart_item_html = cart_item_html.replace("[", "")
-
+    total_price += product_list[id]["Price"]
     result = result + (cart_item_html)
 
-for item in cart_item_html :
+for item in cart_item_html:
     raw_html = raw_html.replace("{{cart_list}}", result)
+    raw_html = raw_html.replace("{{TotalPrice}}", str(total_price))
 
 
 cart_page = raw_html
