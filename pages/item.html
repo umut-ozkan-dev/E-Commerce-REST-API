@@ -66,7 +66,10 @@
 
                 </div>
                 <div id="item_page_buttons">
-                    <button id="item_page_buttons_1">Add to Cart</button><button>Buy Now</button>
+                    <form action="/add-to-cart/{{id}}" method="post">
+                        <button id="item_page_buttons_1">Add to Cart</button>
+                    </form>
+                    <button>Buy Now</button>
                 </div>
 
             </div>
