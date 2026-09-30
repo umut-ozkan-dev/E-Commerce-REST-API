@@ -56,7 +56,7 @@ def get_products(id: int):
 item_list = []
 
 
-@app.post("/add-to-cart/{id}", response_class=HTMLResponse)
+@app.post("/products/{id}", response_class=HTMLResponse)
 def add_items_to_cart(id: int):
     item_list.append(id)
     return get_products(id)
@@ -95,7 +95,7 @@ def cart():
 
         for item in cart_item_html:
             raw_html = raw_html.replace("{{cart_list}}", result)
-            raw_html = raw_html.replace("{{TotalPrice}}", str(round(total_price,2)))
+            raw_html = raw_html.replace("{{TotalPrice}}", str(round(total_price, 2)))
             cart_page = raw_html
             return cart_page
 
@@ -104,6 +104,12 @@ def cart():
         raw_html = raw_html.replace("{{TotalPrice}}", "0")
         empty_cart_page = raw_html
         return empty_cart_page
+
+
+@app.delete("/cart/{id}")
+def remove_item(id: int):
+    item_list.remove(id)
+    return cart()
 
 
 @app.get("/styles.css")
