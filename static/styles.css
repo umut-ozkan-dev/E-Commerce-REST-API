@@ -679,6 +679,7 @@ footer {
   justify-items: right;
   color: #d75708;
   font-weight: bold;
+  padding-right: 20px;
 }
 .checkout_box {
   background-color: #fcfcfc;
@@ -722,4 +723,8 @@ footer {
 
 #contact_page_container {
   margin-bottom: 178px;
+}
+
+.cancel {
+  margin-left: 10px;
 }
