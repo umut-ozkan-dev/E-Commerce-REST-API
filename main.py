@@ -86,6 +86,9 @@ def cart():
             cart_item_html = cart_item_html.replace(
                 "{{Price}}", str(product_list[id]["Price"])
             )
+            cart_item_html = cart_item_html.replace(
+                "{{id}}", str(product_list[id]["id"])
+            )
 
             cart_item_html = cart_item_html.replace("\n", "")
             cart_item_html = cart_item_html.replace("[", "")
@@ -106,7 +109,7 @@ def cart():
         return empty_cart_page
 
 
-@app.delete("/cart/{id}")
+@app.post("/cart/{id}", response_class=HTMLResponse)
 def remove_item(id: int):
     item_list.remove(id)
     return cart()
