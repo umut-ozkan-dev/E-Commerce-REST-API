@@ -96,7 +96,7 @@ def cart():
             total_price += product_list[id]["Price"]
             result = result + cart_item_html
 
-        for item in cart_item_html:
+        for item in result:
             raw_html = raw_html.replace("{{cart_list}}", result)
             raw_html = raw_html.replace("{{TotalPrice}}", str(round(total_price, 2)))
             cart_page = raw_html

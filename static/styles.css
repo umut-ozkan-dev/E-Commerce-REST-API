@@ -708,6 +708,7 @@ footer {
 .checkout_box button {
   width: 110px;
   align-self: center;
+  margin-bottom: 50px;
 }
 
 .checkout_box h3 {
@@ -735,5 +736,3 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
 }
-
-
