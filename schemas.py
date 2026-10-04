@@ -12,12 +12,18 @@ class ProductBase(BaseModel):
     Img: str = Field(max_length=450)
 
 
+myList = []
 for i in range(len(product_list)):
-    ProductBase(
-        id=product_list[i]["id"],
-        Name=product_list[i]["Name"],
-        Price=product_list[i]["Price"],
-        Quantity=product_list[i]["Quantity"],
-        Category=product_list[i]["Category"],
-        Img=product_list[i]["Img"],
+    myList.append(
+        ProductBase(
+            id=product_list[i]["id"],
+            Name=product_list[i]["Name"],
+            Price=product_list[i]["Price"],
+            Quantity=product_list[i]["Quantity"],
+            Category=product_list[i]["Category"],
+            Img=product_list[i]["Img"],
+        )
     )
+
+
+print(myList[0].Category)
