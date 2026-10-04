@@ -23,7 +23,7 @@ product_list: List[Dict] = [
         "Price": 39.99,
         "Quantity": 20,
         "Category": "None",
-        "Img": "https://cdn.myimgs.org/images/43305/image_3.png",
+        "Img": "https://i.ibb.co/jP7yxPM3/image-3.webp",
     },
     {
         "id": 3,

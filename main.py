@@ -60,7 +60,7 @@ item_list = []
 @app.post("/products/{id}", response_class=HTMLResponse)
 def add_items_to_cart(id: int):
     item_list.append(id)
-    return get_products(id)
+    return cart()
 
 
 @app.get("/cart", response_class=HTMLResponse)
