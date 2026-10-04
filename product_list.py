@@ -1,6 +1,6 @@
-from typing import Dict
+from typing import Dict, List
 
-product_list: list[Dict] = [
+product_list: List[Dict] = [
     {
         "id": 0,
         "Name": "TerraStore Large Green Tent",
