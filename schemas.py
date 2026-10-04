@@ -12,9 +12,9 @@ class ProductBase(BaseModel):
     Img: str = Field(max_length=450)
 
 
-myList = []
+PRODUCT_LIST: List[ProductBase] = []
 for i in range(len(product_list)):
-    myList.append(
+    PRODUCT_LIST.append(
         ProductBase(
             id=product_list[i]["id"],
             Name=product_list[i]["Name"],
@@ -26,4 +26,5 @@ for i in range(len(product_list)):
     )
 
 
-print(myList[0].Category)
+
+ 

@@ -3,6 +3,7 @@ from product_list import product_list
 from login import login_page
 from home import home_page
 from contact import contact_page
+from schemas import PRODUCT_LIST
 from item import raw_item_page
 from fastapi import FastAPI, Request, HTTPException, status
 from fastapi.responses import HTMLResponse, FileResponse
@@ -35,16 +36,16 @@ def contact():
 
 @app.get("/products/{id}", response_class=HTMLResponse)
 def get_products(id: int):
-    for product in product_list:
-        if product.get("id") == id:
+    for product in PRODUCT_LIST:
+        if product.id == id:
             with open("./pages/item.html", "r", encoding="utf-8") as file:
                 raw = file.read()
-                raw = raw.replace("{{id}}", str(product_list[id]["id"]))
-                raw = raw.replace("{{Name}}", str(product_list[id]["Name"]))
-                raw = raw.replace("{{Price}}", str(product_list[id]["Price"]))
-                raw = raw.replace("{{Img}}", str(product_list[id]["Img"]))
-                raw = raw.replace("{{Category}}", str(product_list[id]["Category"]))
-                raw = raw.replace("{{Quantity}}", str(product_list[id]["Quantity"]))
+                raw = raw.replace("{{id}}", str(PRODUCT_LIST[id].id))
+                raw = raw.replace("{{Name}}", str(PRODUCT_LIST[id].Name))
+                raw = raw.replace("{{Price}}", str(PRODUCT_LIST[id].Price))
+                raw = raw.replace("{{Img}}", str(PRODUCT_LIST[id].Img))
+                raw = raw.replace("{{Category}}", str(PRODUCT_LIST[id].Category))
+                raw = raw.replace("{{Quantity}}", str(PRODUCT_LIST[id].Quantity))
                 item_page = raw
             return item_page
     raise HTTPException(
@@ -75,25 +76,19 @@ def cart():
             with open("./templates/cart_item.html", "r", encoding="utf-8") as file:
                 cart_item_html = file.read()
 
-            cart_item_html = cart_item_html.replace(
-                "{{Image}}", product_list[id]["Img"]
-            )
+            cart_item_html = cart_item_html.replace("{{Image}}", PRODUCT_LIST[id].Img)
+
+            cart_item_html = cart_item_html.replace("{{Name}}", PRODUCT_LIST[id].Name)
 
             cart_item_html = cart_item_html.replace(
-                "{{Name}}", product_list[id]["Name"]
+                "{{Price}}", str(PRODUCT_LIST[id].Price)
             )
-
-            cart_item_html = cart_item_html.replace(
-                "{{Price}}", str(product_list[id]["Price"])
-            )
-            cart_item_html = cart_item_html.replace(
-                "{{id}}", str(product_list[id]["id"])
-            )
+            cart_item_html = cart_item_html.replace("{{id}}", str(PRODUCT_LIST[id].id))
 
             cart_item_html = cart_item_html.replace("\n", "")
             cart_item_html = cart_item_html.replace("[", "")
 
-            total_price += product_list[id]["Price"]
+            total_price += PRODUCT_LIST[id].Price
             result = result + cart_item_html
 
         for item in result:
