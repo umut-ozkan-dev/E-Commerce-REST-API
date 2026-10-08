@@ -6,7 +6,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore Large Green Tent",
         "Price": 369.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Tents",
         "Img": "https://i.ibb.co/7dLCRxDv/image-9.webp",
     },
     {
@@ -22,7 +22,7 @@ product_list: List[Dict] = [
         "Name": "FirePeak Large Headlight Orange ",
         "Price": 39.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Lighting",
         "Img": "https://i.ibb.co/jP7yxPM3/image-3.webp",
     },
     {
@@ -30,7 +30,7 @@ product_list: List[Dict] = [
         "Name": "Frosty Small Sleeping Mat ",
         "Price": 199.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Sleeping Mats",
         "Img": "https://i.ibb.co/bgmXn67N/image-4.webp",
     },
     {
@@ -38,7 +38,7 @@ product_list: List[Dict] = [
         "Name": "Mountain 20L Blue Backpack",
         "Price": 179.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Backpacks",
         "Img": "https://i.ibb.co/VpwddzLv/image-5.webp",
     },
     {
@@ -46,7 +46,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore 15L Container",
         "Price": 49.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/Fb1HVG7j/image-6.webp",
     },
     {
@@ -54,7 +54,7 @@ product_list: List[Dict] = [
         "Name": "IronTrail Camping Utensils Set",
         "Price": 39.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/994w97Kq/image-8.webp",
     },
     {
@@ -62,7 +62,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore Medium Orange Tent",
         "Price": 279.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Tents",
         "Img": "https://i.ibb.co/fVN9WkwW/image-1.webp",
     },
     {
@@ -70,7 +70,7 @@ product_list: List[Dict] = [
         "Name": "PineCoal Single Portable Stove",
         "Price": 59.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Portable Stoves",
         "Img": "https://i.ibb.co/mFzMDR4G/image-10.webp",
     },
     {
@@ -78,7 +78,7 @@ product_list: List[Dict] = [
         "Name": "Frosty 1.5L Steel Thermos",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/Q7HWtZX2/image-11.webp",
     },
     {
@@ -86,7 +86,7 @@ product_list: List[Dict] = [
         "Name": "Snow Peak Titanium Mug",
         "Price": 49.59,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/RpXYD8zm/image-42.webp",
     },
     {
@@ -94,7 +94,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER Multi-tool HIKE ",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/jZhchyMY/image-12.webp",
     },
     {
@@ -102,7 +102,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore Camping Lamp H400",
         "Price": 54.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Lighting",
         "Img": "https://i.ibb.co/YBd53w8w/image-13.webp",
     },
     {
@@ -110,7 +110,7 @@ product_list: List[Dict] = [
         "Name": "APEX Solar PowerBank SS50",
         "Price": 129.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/sdbqgcKh/image-14.webp",
     },
     {
@@ -118,7 +118,7 @@ product_list: List[Dict] = [
         "Name": "Wild Trail Camping Utensils Orange",
         "Price": 64.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/gMj7KTCp/image-15.webp",
     },
     {
@@ -126,7 +126,7 @@ product_list: List[Dict] = [
         "Name": "APEX WoodPath Trekking Poles",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/7tWQZffc/image-16.webp",
     },
     {
@@ -134,7 +134,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore R-Series Camping Chair",
         "Price": 219.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Camping Gear",
         "Img": "https://i.ibb.co/pr1VMqx6/image-17.webp",
     },
     {
@@ -262,7 +262,7 @@ product_list: List[Dict] = [
         "Name": "JETBOIL Jet Power Stove",
         "Price": 179.99,
         "Quantity": 20,
-        "Category": "None",
+        "Category": "Portable Stoves",
         "Img": "https://i.ibb.co/3JJr4Vw/image-33.webp",
     },
     {
