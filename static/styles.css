@@ -384,7 +384,8 @@ h3 {
   flex-wrap: wrap;
   padding: 15px;
   gap: 25px;
-  justify-content: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .items .inside_items .item_name {
