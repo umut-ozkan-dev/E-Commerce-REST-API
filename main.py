@@ -98,7 +98,7 @@ def get_products(id: int):
                         and product.Name != PRODUCT_LIST[id].Name
                     ):
                         with open(
-                            "./templates/cart_item.html",
+                            "./templates/product.html",
                             "r",
                             encoding="utf-8",
                         ) as file:
