@@ -174,7 +174,7 @@ product_list: List[Dict] = [
         "Name": " AEROSHIELD X8 Expedition Drone",
         "Price": 6399.99,
         "Quantity": 20,
-        "Category": "drone",
+        "Category": "drones",
         "Img": "https://i.ibb.co/PzGqL2m5/image-22.webp",
     },
     {
