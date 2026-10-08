@@ -110,7 +110,7 @@ product_list: List[Dict] = [
         "Name": "APEX Solar PowerBank SS50",
         "Price": 129.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "Solar Energy",
         "Img": "https://i.ibb.co/sdbqgcKh/image-14.webp",
     },
     {
@@ -254,7 +254,7 @@ product_list: List[Dict] = [
         "Name": "APEX Solar PowerBank SS90",
         "Price": 379.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "Solar Energy",
         "Img": "https://i.ibb.co/Lzw3s5Tm/image-32.webp",
     },
     {
@@ -270,7 +270,7 @@ product_list: List[Dict] = [
         "Name": "IronTrail Portable Solar Panel System",
         "Price": 1299.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "Solar Energy",
         "Img": "https://i.ibb.co/PZ4Z8p3j/image-34.webp",
     },
     {
