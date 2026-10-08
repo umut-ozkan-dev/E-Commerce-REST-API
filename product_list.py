@@ -14,7 +14,7 @@ product_list: List[Dict] = [
         "Name": "PineCoal Fire-Starting Kit",
         "Price": 49.99,
         "Quantity": 20,
-        "Category": "fire_starters",
+        "Category": "portable_stoves",
         "Img": "https://i.ibb.co/jvnd2Ptv/image-2.webp",
     },
     {
@@ -214,7 +214,7 @@ product_list: List[Dict] = [
         "Name": "APEX Counter Assault Bear Spray",
         "Price": 39.99,
         "Quantity": 20,
-        "Category": "camping_gear",
+        "Category": "survival",
         "Img": "https://i.ibb.co/FbTPW0f0/image-27.webp",
     },
     {
