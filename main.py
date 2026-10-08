@@ -9,6 +9,7 @@ from fastapi import FastAPI, Request, HTTPException, status
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from typing import Optional
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -19,28 +20,38 @@ def home():
     return home_page
 
 
+""" 
 @app.get("/products", response_class=HTMLResponse)
 def products():
     return product_page
+"""
 
 
-@app.get("/products/category/{category}", response_class=HTMLResponse)
+@app.get("/products", response_class=HTMLResponse)
 def products_category(category: str):
+
     with open("./pages/products.html", "r", encoding="utf-8") as file:
         raw_html = f"{file.read()}"
-    empty_list = ""
+    empty_string = ""
     for i in range(len(PRODUCT_LIST)):
         with open("./templates/product.html", "r", encoding="utf-8") as product_html:
             product = product_html.read()
+
+            if category == 'all':
+                product = product.replace("{{Image}}", PRODUCT_LIST[i].Img)
+                product = product.replace("{{Id}}", str(PRODUCT_LIST[i].id))
+                product = product.replace("{{Name}}", PRODUCT_LIST[i].Name)
+                product = product.replace("{{Price}}", str(PRODUCT_LIST[i].Price))
+                empty_string += product
+
             if PRODUCT_LIST[i].Category == category:
                 product = product.replace("{{Image}}", PRODUCT_LIST[i].Img)
                 product = product.replace("{{Id}}", str(PRODUCT_LIST[i].id))
                 product = product.replace("{{Name}}", PRODUCT_LIST[i].Name)
                 product = product.replace("{{Price}}", str(PRODUCT_LIST[i].Price))
-                empty_list += product
-                
+                empty_string += product
 
-    product_page = raw_html.replace("{{empty_list}}", empty_list)
+    product_page = raw_html.replace("{{empty_list}}", empty_string)
     return product_page
 
 
