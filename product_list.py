@@ -6,7 +6,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore Large Green Tent",
         "Price": 369.99,
         "Quantity": 20,
-        "Category": "Tents",
+        "Category": "tents",
         "Img": "https://i.ibb.co/7dLCRxDv/image-9.webp",
     },
     {
@@ -14,7 +14,7 @@ product_list: List[Dict] = [
         "Name": "PineCoal Fire-Starting Kit",
         "Price": 49.99,
         "Quantity": 20,
-        "Category": "Fire Starters",
+        "Category": "fire_starters",
         "Img": "https://i.ibb.co/jvnd2Ptv/image-2.webp",
     },
     {
@@ -22,7 +22,7 @@ product_list: List[Dict] = [
         "Name": "FirePeak Large Headlight Orange ",
         "Price": 39.99,
         "Quantity": 20,
-        "Category": "Lighting",
+        "Category": "lighting",
         "Img": "https://i.ibb.co/jP7yxPM3/image-3.webp",
     },
     {
@@ -30,7 +30,7 @@ product_list: List[Dict] = [
         "Name": "Frosty Small Sleeping Mat ",
         "Price": 199.99,
         "Quantity": 20,
-        "Category": "Sleeping Mats",
+        "Category": "sleeping_mats",
         "Img": "https://i.ibb.co/bgmXn67N/image-4.webp",
     },
     {
@@ -38,7 +38,7 @@ product_list: List[Dict] = [
         "Name": "Mountain 20L Blue Backpack",
         "Price": 179.99,
         "Quantity": 20,
-        "Category": "Backpacks",
+        "Category": "backpacks",
         "Img": "https://i.ibb.co/VpwddzLv/image-5.webp",
     },
     {
@@ -46,7 +46,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore 15L Container",
         "Price": 49.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/Fb1HVG7j/image-6.webp",
     },
     {
@@ -54,7 +54,7 @@ product_list: List[Dict] = [
         "Name": "IronTrail Camping Utensils Set",
         "Price": 39.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/994w97Kq/image-8.webp",
     },
     {
@@ -62,7 +62,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore Medium Orange Tent",
         "Price": 279.99,
         "Quantity": 20,
-        "Category": "Tents",
+        "Category": "tents",
         "Img": "https://i.ibb.co/fVN9WkwW/image-1.webp",
     },
     {
@@ -70,7 +70,7 @@ product_list: List[Dict] = [
         "Name": "PineCoal Single Portable Stove",
         "Price": 59.99,
         "Quantity": 20,
-        "Category": "Portable Stoves",
+        "Category": "portable_stoves",
         "Img": "https://i.ibb.co/mFzMDR4G/image-10.webp",
     },
     {
@@ -78,7 +78,7 @@ product_list: List[Dict] = [
         "Name": "Frosty 1.5L Steel Thermos",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/Q7HWtZX2/image-11.webp",
     },
     {
@@ -86,7 +86,7 @@ product_list: List[Dict] = [
         "Name": "Snow Peak Titanium Mug",
         "Price": 49.59,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/RpXYD8zm/image-42.webp",
     },
     {
@@ -94,7 +94,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER Multi-tool HIKE ",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/jZhchyMY/image-12.webp",
     },
     {
@@ -102,7 +102,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore Camping Lamp H400",
         "Price": 54.99,
         "Quantity": 20,
-        "Category": "Lighting",
+        "Category": "lighting",
         "Img": "https://i.ibb.co/YBd53w8w/image-13.webp",
     },
     {
@@ -110,7 +110,7 @@ product_list: List[Dict] = [
         "Name": "APEX Solar PowerBank SS50",
         "Price": 129.99,
         "Quantity": 20,
-        "Category": "Solar Energy",
+        "Category": "solar_energy",
         "Img": "https://i.ibb.co/sdbqgcKh/image-14.webp",
     },
     {
@@ -118,7 +118,7 @@ product_list: List[Dict] = [
         "Name": "Wild Trail Camping Utensils Orange",
         "Price": 64.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/gMj7KTCp/image-15.webp",
     },
     {
@@ -126,7 +126,7 @@ product_list: List[Dict] = [
         "Name": "APEX WoodPath Trekking Poles",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/7tWQZffc/image-16.webp",
     },
     {
@@ -134,7 +134,7 @@ product_list: List[Dict] = [
         "Name": "TerraStore R-Series Camping Chair",
         "Price": 219.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/pr1VMqx6/image-17.webp",
     },
     {
@@ -142,7 +142,7 @@ product_list: List[Dict] = [
         "Name": "APEX Isobutane-Propane Mix",
         "Price": 66.99,
         "Quantity": 20,
-        "Category": "Portable Stoves",
+        "Category": "portable_stoves",
         "Img": "https://i.ibb.co/Kzp16dSD/image-18.webp",
     },
     {
@@ -150,7 +150,7 @@ product_list: List[Dict] = [
         "Name": "NatureHike Winter Puffer H-Series",
         "Price": 444.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/hR7MdsSh/image-19.webp",
     },
     {
@@ -158,7 +158,7 @@ product_list: List[Dict] = [
         "Name": "NatureHike 15L Blue Backpack",
         "Price": 129.99,
         "Quantity": 20,
-        "Category": "Backpacks",
+        "Category": "backpacks",
         "Img": "https://i.ibb.co/jZsB6Vgm/image-20.webp",
     },
     {
@@ -166,7 +166,7 @@ product_list: List[Dict] = [
         "Name": "PELICAN Portable Hardcase",
         "Price": 1699.99,
         "Quantity": 20,
-        "Category": "Drones",
+        "Category": "drones",
         "Img": "https://i.ibb.co/pv18srFp/image-38.webp",
     },
     {
@@ -174,7 +174,7 @@ product_list: List[Dict] = [
         "Name": " AEROSHIELD X8 Expedition Drone",
         "Price": 6399.99,
         "Quantity": 20,
-        "Category": "Drone",
+        "Category": "drone",
         "Img": "https://i.ibb.co/PzGqL2m5/image-22.webp",
     },
     {
@@ -182,7 +182,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER 10x50 42mm Binoculars",
         "Price": 359.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/Tx8hTPQ9/image-23.webp",
     },
     {
@@ -190,7 +190,7 @@ product_list: List[Dict] = [
         "Name": "APEX Tracker PRO4 Lite",
         "Price": 2449.99,
         "Quantity": 20,
-        "Category": "Communication",
+        "Category": "communication",
         "Img": "https://i.ibb.co/fzWkQjL5/image-24.webp",
     },
     {
@@ -198,7 +198,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER Emergency Kit Pro",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Emergency Kits",
+        "Category": "emergency_kits",
         "Img": "https://i.ibb.co/Rrvwk7V/image-25.webp",
     },
     {
@@ -206,7 +206,7 @@ product_list: List[Dict] = [
         "Name": "BAOFENG Dual UWR-X5",
         "Price": 799.99,
         "Quantity": 20,
-        "Category": "Communication",
+        "Category": "communication",
         "Img": "https://i.ibb.co/zh9MWSCy/image-26.webp",
     },
     {
@@ -214,7 +214,7 @@ product_list: List[Dict] = [
         "Name": "APEX Counter Assault Bear Spray",
         "Price": 39.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/FbTPW0f0/image-27.webp",
     },
     {
@@ -222,7 +222,7 @@ product_list: List[Dict] = [
         "Name": "APEX Tactical Emergency Kit",
         "Price": 149.99,
         "Quantity": 20,
-        "Category": "Emergency Kits",
+        "Category": "emergency_kits",
         "Img": "https://i.ibb.co/BXW4kBv/image-28.webp",
     },
     {
@@ -230,7 +230,7 @@ product_list: List[Dict] = [
         "Name": "IronTrail 32cm Camping Knife ",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Survival",
+        "Category": "survival",
         "Img": "https://i.ibb.co/GQ6TNc2f/image-29.webp",
     },
     {
@@ -238,7 +238,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER Water Filtration Pod",
         "Price": 479.99,
         "Quantity": 20,
-        "Category": "Survival",
+        "Category": "survival",
         "Img": "https://i.ibb.co/JRbDNMYP/image-30.webp",
     },
     {
@@ -246,7 +246,7 @@ product_list: List[Dict] = [
         "Name": "BOAFENG XER-N2",
         "Price": 1899.99,
         "Quantity": 20,
-        "Category": "Communication",
+        "Category": "communication",
         "Img": "https://i.ibb.co/Fq3v7tp2/image-31.webp",
     },
     {
@@ -254,7 +254,7 @@ product_list: List[Dict] = [
         "Name": "APEX Solar PowerBank SS90",
         "Price": 379.99,
         "Quantity": 20,
-        "Category": "Solar Energy",
+        "Category": "solar_energy",
         "Img": "https://i.ibb.co/Lzw3s5Tm/image-32.webp",
     },
     {
@@ -262,7 +262,7 @@ product_list: List[Dict] = [
         "Name": "JETBOIL Jet Power Stove",
         "Price": 179.99,
         "Quantity": 20,
-        "Category": "Portable Stoves",
+        "Category": "portable_stoves",
         "Img": "https://i.ibb.co/3JJr4Vw/image-33.webp",
     },
     {
@@ -270,7 +270,7 @@ product_list: List[Dict] = [
         "Name": "IronTrail Portable Solar Panel System",
         "Price": 1299.99,
         "Quantity": 20,
-        "Category": "Solar Energy",
+        "Category": "solar_energy",
         "Img": "https://i.ibb.co/PZ4Z8p3j/image-34.webp",
     },
     {
@@ -278,7 +278,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER AQUA Water Filtration ",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Survival",
+        "Category": "survival",
         "Img": "https://i.ibb.co/DgfmWVSC/image-35.webp",
     },
     {
@@ -286,7 +286,7 @@ product_list: List[Dict] = [
         "Name": "APEX RR-7 Camping Cot",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Sleeping Mats",
+        "Category": "sleeping_mats",
         "Img": "https://i.ibb.co/rRjz0SxK/image-36.webp",
     },
     {
@@ -294,7 +294,7 @@ product_list: List[Dict] = [
         "Name": "Frosty Electric Cooler PR5",
         "Price": 1549.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/qYLJmcRg/image-37.webp",
     },
     {
@@ -302,7 +302,7 @@ product_list: List[Dict] = [
         "Name": "AEROSHIELD X5 Expedition Drone",
         "Price": 4379.99,
         "Quantity": 20,
-        "Category": "Drones",
+        "Category": "drones",
         "Img": "https://i.ibb.co/N2MgdM64/image-21.png",
     },
     {
@@ -310,7 +310,7 @@ product_list: List[Dict] = [
         "Name": "HUNTER TIGER-2 Camping Watch",
         "Price": 799.99,
         "Quantity": 20,
-        "Category": "Camping Gear",
+        "Category": "camping_gear",
         "Img": "https://i.ibb.co/pv3JsHKB/image-39.webp",
     },
     {
@@ -318,7 +318,7 @@ product_list: List[Dict] = [
         "Name": "APEX Headlamp Lunar F300",
         "Price": 79.99,
         "Quantity": 20,
-        "Category": "Lighting",
+        "Category": "lighting",
         "Img": "https://i.ibb.co/Tqq9s4Bk/image-40.webp",
     },
     {
@@ -326,7 +326,7 @@ product_list: List[Dict] = [
         "Name": "Solo Stove Smokeless Fire Pit",
         "Price": 119.99,
         "Quantity": 20,
-        "Category": "Portable Stoves",
+        "Category": "portable_stoves",
         "Img": "https://i.ibb.co/bM0K0qRG/image-41.webp",
     },
 ]

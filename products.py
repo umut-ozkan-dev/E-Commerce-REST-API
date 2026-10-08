@@ -4,7 +4,7 @@ from schemas import PRODUCT_LIST
 FILEPATH = "./pages/products.html"
 
 
-with open(FILEPATH, "r", encoding="utf-8") as file:
+with open("./pages/products.html", "r", encoding="utf-8") as file:
     raw_html = f"{file.read()}"
     empty_list = ""
     for i in range(len(PRODUCT_LIST)):
