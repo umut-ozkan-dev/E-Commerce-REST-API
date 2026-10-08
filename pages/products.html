@@ -89,38 +89,31 @@
             <h3>Price Range</h3>
             <ul>
                 <li>
-                    <a href="">$0.0 - $50.0</a>
+                    <a href="/products?range=0_500">$0.0 - $500.0</a>
+                </li>
+
+                <li>
+                    <a href="/products?range=500_1000">$500.0 - $1000.0</a>
                 </li>
                 <li>
-                    <a href="">$0.0 - $50.0</a>
+                    <a href="/products?range=1000_2000">$1000.0 - $2000.0</a>
                 </li>
                 <li>
-                    <a href="">$50.0 - $100.0</a>
+                    <a href="/products?range=2000_3000">$2000.0 - $3000.0</a>
                 </li>
                 <li>
-                    <a href="">$100.00 - $250.0</a>
-                </li>
-                <li>
-                    <a href="">$250.0 - $500.0</a>
-                </li>
-                <li>
-                    <a href="">$500.0 - $750.0</a>
-                </li>
-                <li>
-                    <a href="">$750.0 - $1000.0</a>
-                </li>
-                <li>
-                    <a href="">$1000.0 - $1500.0</a>
-                </li>
-                <li>
-                    <a href="">$1500.0 - $9999.0</a>
+                    <a href="/products?range=3000_99990">$3000.0 - $9999.0</a>
                 </li>
             </ul>
         </div>
+        <div class="big_product_page_container">
+            <div class="category_header">
+                <h3>Category: {{Category}}</h3>
+            </div>
+            <div class="product_page_products">
 
-        <div class="product_page_products">
-
-            {{empty_list}}
+                {{empty_list}}
+            </div>
         </div>
     </div>
     <footer>

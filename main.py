@@ -28,7 +28,9 @@ def products():
 
 
 @app.get("/products", response_class=HTMLResponse)
-def products_category(category: str):
+def products_category(
+    category: str,
+):
 
     with open("./pages/products.html", "r", encoding="utf-8") as file:
         raw_html = f"{file.read()}"
@@ -37,11 +39,12 @@ def products_category(category: str):
         with open("./templates/product.html", "r", encoding="utf-8") as product_html:
             product = product_html.read()
 
-            if category == 'all':
+            if category == "all":
                 product = product.replace("{{Image}}", PRODUCT_LIST[i].Img)
                 product = product.replace("{{Id}}", str(PRODUCT_LIST[i].id))
                 product = product.replace("{{Name}}", PRODUCT_LIST[i].Name)
                 product = product.replace("{{Price}}", str(PRODUCT_LIST[i].Price))
+                raw_html = raw_html.replace("{{Category}}", "All")
                 empty_string += product
 
             if PRODUCT_LIST[i].Category == category:
@@ -49,7 +52,12 @@ def products_category(category: str):
                 product = product.replace("{{Id}}", str(PRODUCT_LIST[i].id))
                 product = product.replace("{{Name}}", PRODUCT_LIST[i].Name)
                 product = product.replace("{{Price}}", str(PRODUCT_LIST[i].Price))
+                string_category = category.replace("_", " ").title()
+                raw_html = raw_html.replace("{{Category}}", string_category)
+
                 empty_string += product
+
+            # if PRODUCT_LIST[i].Price > 0 and PRODUCT_LIST[i].Price <= 1000:
 
     product_page = raw_html.replace("{{empty_list}}", empty_string)
     return product_page
@@ -67,18 +75,63 @@ def contact():
 
 @app.get("/products/{id}", response_class=HTMLResponse)
 def get_products(id: int):
+    similar_category_items = []
+    result = ""
+
     for product in PRODUCT_LIST:
         if product.id == id:
             with open("./pages/item.html", "r", encoding="utf-8") as file:
                 raw = file.read()
+
                 raw = raw.replace("{{id}}", str(PRODUCT_LIST[id].id))
                 raw = raw.replace("{{Name}}", str(PRODUCT_LIST[id].Name))
                 raw = raw.replace("{{Price}}", str(PRODUCT_LIST[id].Price))
                 raw = raw.replace("{{Img}}", str(PRODUCT_LIST[id].Img))
                 raw = raw.replace("{{Category}}", str(PRODUCT_LIST[id].Category))
                 raw = raw.replace("{{Quantity}}", str(PRODUCT_LIST[id].Quantity))
-                item_page = raw
+
+                result = ""
+
+                for product in PRODUCT_LIST:
+                    if (
+                        product.Category == PRODUCT_LIST[id].Category
+                        and product.Name != PRODUCT_LIST[id].Name
+                    ):
+                        with open(
+                            "./templates/cart_item.html",
+                            "r",
+                            encoding="utf-8",
+                        ) as file:
+                            cart_item_html = file.read()
+
+                            cart_item_html = cart_item_html.replace(
+                                "{{Image}}",
+                                product.Img,
+                            )
+                            cart_item_html = cart_item_html.replace(
+                                "{{Name}}",
+                                product.Name,
+                            )
+                            cart_item_html = cart_item_html.replace(
+                                "{{Price}}",
+                                str(product.Price),
+                            )
+                            cart_item_html = cart_item_html.replace(
+                                "{{id}}",
+                                str(product.id),
+                            )
+
+                            cart_item_html = cart_item_html.replace("\n", "")
+                            cart_item_html = cart_item_html.replace("[", "")
+
+                            result += cart_item_html
+
+                raw = raw.replace("{{Similar_Products}}", result)
+
+            item_page = raw
+
             return item_page
+
     raise HTTPException(
         status_code=status.HTTP_404_NOT_FOUND,
         detail="Product not found. Please enter values between 0-40",
@@ -106,16 +159,12 @@ def cart():
         for id in item_list:
             with open("./templates/cart_item.html", "r", encoding="utf-8") as file:
                 cart_item_html = file.read()
-
             cart_item_html = cart_item_html.replace("{{Image}}", PRODUCT_LIST[id].Img)
-
             cart_item_html = cart_item_html.replace("{{Name}}", PRODUCT_LIST[id].Name)
-
             cart_item_html = cart_item_html.replace(
                 "{{Price}}", str(PRODUCT_LIST[id].Price)
             )
             cart_item_html = cart_item_html.replace("{{id}}", str(PRODUCT_LIST[id].id))
-
             cart_item_html = cart_item_html.replace("\n", "")
             cart_item_html = cart_item_html.replace("[", "")
 
