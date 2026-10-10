@@ -753,5 +753,11 @@ footer {
 
 
 .similar_products{
+    margin-top: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
     
 }
